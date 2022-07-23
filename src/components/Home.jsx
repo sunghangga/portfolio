@@ -10,17 +10,16 @@ const Home = () => {
             <div
               className="image avatar_img"
               style={{
-                backgroundImage: "url(assets/img/slider/1.jpg)",
+                backgroundImage: "url(assets/img/slider/profile.jpg)",
               }}
             ></div>
             {/* END AVATAR IMAGE */}
           </div>
           {/* END AVATAR */}
           <div className="details">
-            <h3 className="name">Adriano Smith</h3>
+            <h3 className="name">Angga Pramana Putra</h3>
             <p className="job">
-              Creative Photographer based in New York and happy to travel all
-              over Europe to capture photos.
+              Software Engineer based in Bali and happy to create solution to solve any problem.
             </p>
             {/* END JOB */}
             <Social />

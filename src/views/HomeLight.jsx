@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { Link } from "react-router-dom";
-import Home from "../../components/Home";
-import About from "../../components/About";
-import Portfolio from "../../components/Portfolio";
-import News from "../../components/News";
-import Contact from "../../components/Contact";
+import Home from "../components/Home";
+import About from "../components/About";
+import Portfolio from "../components/Portfolio";
+import Contact from "../components/Contact";
+import Theme from "../components/Theme";
 
 const HomeLight = () => {
+  const [theme, setTheme] = useState("light");
+
   return (
     <>
       <Tabs>
@@ -16,9 +17,7 @@ const HomeLight = () => {
           <div className="leftpart">
             <div className="leftpart_inner">
               <div className="logo">
-                <Link className="navbar-brand" to="/">
-                  <img src="/assets/img/logo/dark.png" alt="brand" />
-                </Link>
+                <Theme theme={theme} setTheme={setTheme} />
               </div>
               {/* END LOGO */}
 
@@ -51,14 +50,6 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/paper.svg"
-                      alt="paper"
-                    />
-                    <span className="menu_content">News</span>
-                  </Tab>
-                  <Tab>
-                    <img
-                      className="svg"
                       src="/assets/img/svg/mail.svg"
                       alt="mail"
                     />
@@ -70,14 +61,7 @@ const HomeLight = () => {
 
               <div className="copyright">
                 <p>
-                  &copy; {new Date().getFullYear()} Tokyo <br /> Created by
-                  <a
-                    href="https://themeforest.net/user/ib-themes"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Ib-Themes
-                  </a>
+                  &copy; {new Date().getFullYear()} Portfolio <br /> Created with Love
                 </p>
               </div>
               {/* END COPYRIGHT */}
@@ -106,11 +90,6 @@ const HomeLight = () => {
                   <Portfolio />
                 </TabPanel>
                 {/* END PORTFOLIO MENU TAB CONTENT */}
-
-                <TabPanel>
-                  <News />
-                </TabPanel>
-                {/* END NEWS MENU TAB CONTENT */}
 
                 <TabPanel>
                   <Contact />

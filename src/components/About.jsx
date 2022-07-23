@@ -15,17 +15,23 @@ const About = () => {
     <>
       <div className="tokyo_tm_about">
         <div className="about_image">
-          <img src="assets/img/slider/1.jpg" alt="about" />
+          <img src="assets/img/slider/view.jpg" alt="about" />
         </div>
         {/* END ABOUT IMAGE */}
         <div className="description">
-          <h3 className="name">Adriano Smith &amp; Photographer</h3>
+          <h3 className="name">Angga Pramana Putra</h3>
           <div className="description_inner">
             <div className="left">
               <p>
-                Hello, I am a creative photographer based in New York and happy
-                to travel all over Europe to capture your big day in candid and
-                authentic photos. I will create a lasting memory of the people.
+                Hello, I'm a Software Engineer from Indonesia currently based in Bali. 
+                I specializing in building (and occasionally designing) 
+                exceptional digital experiences and focused on building innovation that 
+                can unlock the revenue potential of your ideas.
+                I love everything that has to do with programming, web design, 
+                cryptography and I feel a true devotion for programming. 
+                I work closely with other colleagues involved in projects, 
+                such as software engineer, and devops staff. 
+                I also work directly with clients.
               </p>
               <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">
@@ -39,34 +45,24 @@ const About = () => {
               <ul>
                 <li>
                   <p>
-                    <span>Birthday:</span>01.07.1990
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Age:</span>31
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Address:</span>Ave 11, New York, USA
+                    <span>Address:</span>Bali, Indonesia
                   </p>
                 </li>
                 <li>
                   <p>
                     <span>Email:</span>
-                    <a href="mailto:mail@gmail.com">mail@gmail.com</a>
+                    <a href="mailto:sunghangga@gmail.com">sunghangga@gmail.com</a>
                   </p>
                 </li>
                 <li>
                   <p>
                     <span>Phone:</span>
-                    <a href="tel:+770221770505">+77 022 177 05 05</a>
+                    <a href="tel:+6285205142721">+62 852 0514 2721</a>
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Study:</span>Univercity of Texas
+                    <span>Study:</span>Udayana Univercity
                   </p>
                 </li>
                 <li>
@@ -102,14 +98,14 @@ const About = () => {
               <div className="my_box">
                 <div className="left">
                   <div className="about_title">
-                    <h3>Photography Skills</h3>
+                    <h3>Skills</h3>
                   </div>
                   {/* END ABOUT TITLE */}
 
                   <div className="tokyo_progress">
                     <div className="progress_inner" data-value="95">
                       <span>
-                        <span className="label">Wedding Photography</span>
+                        <span className="label">Backend Development</span>
                         <span className="number">95%</span>
                       </span>
                       <div className="background">
@@ -121,7 +117,7 @@ const About = () => {
 
                     <div className="progress_inner" data-value="80">
                       <span>
-                        <span className="label">Lifestyle Photography</span>
+                        <span className="label">Frontend Development</span>
                         <span className="number">80%</span>
                       </span>
                       <div className="background">
@@ -133,12 +129,12 @@ const About = () => {
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">Family Photography</span>
-                        <span className="number">90%</span>
+                        <span className="label">DevOps</span>
+                        <span className="number">85%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
-                        <div className="bar_in" style={{width: 90 + '%'}}></div>
+                        <div className="bar_in" style={{width: 85 + '%'}}></div>
                         </div>
                       </div>
                     </div>
@@ -156,35 +152,23 @@ const About = () => {
                     <div className="progress_inner" data-value="95">
                       <span>
                         <span className="label">English</span>
-                        <span className="number">95%</span>
+                        <span className="number">80%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
-                        <div className="bar_in" style={{width: 95 + '%'}}></div>
+                        <div className="bar_in" style={{width: 80 + '%'}}></div>
                         </div>
                       </div>
                     </div>
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">Japanese</span>
-                        <span className="number">90%</span>
+                        <span className="label">Indonesia</span>
+                        <span className="number">95%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
-                        <div className="bar_in" style={{width: 90 + '%'}}></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="progress_inner" data-value="85">
-                      <span>
-                        <span className="label">Arabian</span>
-                        <span className="number">85%</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                        <div className="bar_in" style={{width: 85 + '%'}}></div>
+                        <div className="bar_in" style={{width: 95 + '%'}}></div>
                         </div>
                       </div>
                     </div>
