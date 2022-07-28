@@ -1,0 +1,49 @@
+{
+    "data": [
+        {
+            "title": "Meal Planning",
+            "year": 2022,
+            "gallery": [
+                [
+                    "assets/img/news/1.jpg"
+                ],
+                [
+                    "assets/img/news/2.jpg"
+                ],
+                [
+                    "assets/img/news/3.jpg"
+                ]
+            ],
+            "description": "Meal Planning system is a system used to planning food needs, based on the age and needs of the customer."
+        },
+        {
+            "title": "IDI Denpasar",
+            "year": 2021,
+            "gallery": [
+                [
+                    "assets/img/news/4.jpg"
+                ],
+                [
+                    "assets/img/news/2.jpg"
+                ],
+                [
+                    "assets/img/news/3.jpg"
+                ]
+            ],
+            "description": "A system from Indonesia doctor association branch Denpasar to manage website, dues, and document."
+        },
+        {
+            "title": "M-Sales Credit",
+            "year": 2020,
+            "gallery": [
+                [
+                    "assets/img/news/1.jpg"
+                ],
+                [
+                    "assets/img/news/4.jpg"
+                ]
+            ],
+            "description": "M-Sales Credit is a collaboration tool that organizes projects into boards. In one glance, M-Sales Credit tells you what's being worked on, who's working on what, and where something is in a process. Imagine a white board, filled with lists of sticky notes, with each note as a task for you and your team. This system is specifically for monitoring sales surveys."
+        }
+    ]
+}
