@@ -940,10 +940,6 @@ ul.react-tabs__tab-list {
     padding-bottom: 25px;
   }
 }
-// .tokyo_tm_portfolio .portfolio_list li .inner img{
-// 	opacity: 0;
-// 	min-width: 100%;
-// }
 .tokyo_tm_portfolio .portfolio_list li .inner .main_image {
   position: absolute;
   top: 0px;
@@ -1186,11 +1182,11 @@ ul.react-tabs__tab-list {
 }
 .tokyo_tm_news ul li .details .date span {
   position: relative;
-  margin-left: 11px;
+  // margin-left: 11px;
 }
 .tokyo_tm_news ul li .details .date span:before {
   position: absolute;
-  content: "";
+  // content: "";
   margin-top: 1px;
   top: 50%;
   transform: translateY(-50%) rotate(15deg);
@@ -1331,11 +1327,11 @@ ul.react-tabs__tab-list {
 }
 .tokyo_tm_modalbox_news .date span {
   position: relative;
-  margin-left: 11px;
+  // margin-left: 11px;
 }
 .tokyo_tm_modalbox_news .date span:before {
   position: absolute;
-  content: "";
+  // content: "";
   margin-top: 0px;
   top: 50%;
   transform: translateY(-50%) rotate(15deg);
@@ -1369,7 +1365,7 @@ body.modal {
   font-size: 20px;
   margin-bottom: 33px;
 }
-.tokyo_tm_modalbox_news .main_content .descriptions p {
+.tokyo_tm_modalbox_news .main_content .descriptions p, button {
   margin-bottom: 22px;
 }
 .tokyo_tm_modalbox_news .main_content .quotebox {
@@ -1780,9 +1776,6 @@ body.modal {
   .tokyo_tm_modalbox_about .counter ul li {
     width: 100%;
     padding-left: 0px;
-  }
-
-  .not-found-wrapper .tokyo_tm_error {
   }
 }
 

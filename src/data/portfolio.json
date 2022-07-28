@@ -14,6 +14,7 @@
                     "assets/img/news/3.jpg"
                 ]
             ],
+            "url": null,
             "description": "Meal Planning system is a system used to planning food needs, based on the age and needs of the customer."
         },
         {
@@ -30,6 +31,7 @@
                     "assets/img/news/3.jpg"
                 ]
             ],
+            "url": null,
             "description": "A system from Indonesia doctor association branch Denpasar to manage website, dues, and document."
         },
         {
@@ -43,6 +45,7 @@
                     "assets/img/news/4.jpg"
                 ]
             ],
+            "url": "https://www.google.com/",
             "description": "M-Sales Credit is a collaboration tool that organizes projects into boards. In one glance, M-Sales Credit tells you what's being worked on, who's working on what, and where something is in a process. Imagine a white board, filled with lists of sticky notes, with each note as a task for you and your team. This system is specifically for monitoring sales surveys."
         }
     ]
