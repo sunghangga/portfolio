@@ -1,4 +1,4 @@
-# React Personal Portfolio Template
+# React Personal Portfolio
 
 ## Description
 Setup Procedure
