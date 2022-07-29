@@ -95,111 +95,115 @@ const About = () => {
           {/* END POPUP CLOSE BUTTON */}
           <div className="box-inner">
             <div className="description_wrap scrollable">
-              <div className="my_box">
-                <div className="left">
-                  <div className="about_title">
-                    <h3>Skills</h3>
-                  </div>
-                  {/* END ABOUT TITLE */}
-
-                  <div className="tokyo_progress">
-                    <div className="progress_inner" data-value="95">
-                      <span>
-                        <span className="label">Backend Development</span>
-                        <span className="number">95%</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                          <div className="bar_in" style={{width: 95 + '%'}}></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="progress_inner" data-value="80">
-                      <span>
-                        <span className="label">Frontend Development</span>
-                        <span className="number">80%</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                        <div className="bar_in" style={{width: 80 + '%'}}></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="progress_inner" data-value="90">
-                      <span>
-                        <span className="label">DevOps</span>
-                        <span className="number">85%</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                        <div className="bar_in" style={{width: 85 + '%'}}></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* END PROGRESS */}
-                </div>
-                {/* END LEFT */}
-
-                <div className="right">
-                  <div className="about_title">
-                    <h3>Language Skills</h3>
-                  </div>
-                  {/* END TITLE */}
-                  <div className="tokyo_progress">
-                    <div className="progress_inner" data-value="95">
-                      <span>
-                        <span className="label">English</span>
-                        <span className="number">80%</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                        <div className="bar_in" style={{width: 80 + '%'}}></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="progress_inner" data-value="90">
-                      <span>
-                        <span className="label">Indonesia</span>
-                        <span className="number">95%</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                        <div className="bar_in" style={{width: 95 + '%'}}></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* EDN TOKYO PROGRESS */}
-                </div>
-                {/* END RIGHT */}
-              </div>
-              {/* END MYBOX */}
-
               <div className="counter">
                 <div className="about_title">
-                  <h3>Fun Facts</h3>
+                  <h3>Skills</h3>
                 </div>
                 <ul>
                   <li>
                     <div className="list_inner">
-                      <h3>777+</h3>
-                      <span>Projects Completed</span>
+                      <h3><img src="assets/img/svg/portfolio/java.svg" className="svg" alt="java" /></h3>
+                      <span>Java</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3>3K</h3>
-                      <span>Happy Clients</span>
+                      <h3><img src="assets/img/svg/portfolio/spring.svg" className="svg" alt="spring" /></h3>
+                      <span>Spring</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3>9K+</h3>
-                      <span>Lines of Code</span>
+                      <h3><img src="assets/img/svg/portfolio/jenkins.svg" className="svg" alt="jenkins" /></h3>
+                      <span>Jenkins</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3><img src="assets/img/svg/portfolio/python.svg" className="svg" alt="python" /></h3>
+                      <span>Python</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3><img src="assets/img/svg/portfolio/flask.svg" className="svg" alt="flask" /></h3>
+                      <span>Flask</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3><img src="assets/img/svg/portfolio/javascript.svg" className="svg" alt="javascript" /></h3>
+                      <span>Javascript</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3><img src="assets/img/svg/portfolio/reactjs.svg" className="svg" alt="reactjs" /></h3>
+                      <span>React JS</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3><img src="assets/img/svg/portfolio/vuejs.svg" className="svg" alt="vuejs" /></h3>
+                      <span>Vue JS</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3><img src="assets/img/svg/portfolio/extjs.svg" className="svg" alt="extjs" /></h3>
+                      <span>EXT JS</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3><img src="assets/img/svg/portfolio/docker.svg" className="svg" alt="docker" /></h3>
+                      <span>Docker</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3><img src="assets/img/svg/portfolio/redis.svg" className="svg" alt="redis" /></h3>
+                      <span>Redis</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3><img src="assets/img/svg/portfolio/mosquitto.svg" className="svg" alt="mosquitto" /></h3>
+                      <span>Mosquitto MQTT</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3><img src="assets/img/svg/portfolio/php.svg" className="svg" alt="php" /></h3>
+                      <span>PHP</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3><img src="assets/img/svg/portfolio/laravel.svg" className="svg" alt="laravel" /></h3>
+                      <span>Laravel</span>
+                    </div>
+                  </li>
+                </ul>
+                {/* END COUNTER CONTENT */}
+              </div>
+              {/* END COUNTER */}
+
+              <div className="counter">
+                <div className="about_title">
+                  <h3>Languages</h3>
+                </div>
+                <ul>
+                  <li>
+                    <div className="list_inner">
+                      <h3><img src="assets/img/svg/flag_english.svg" className="svg" alt="english_flag" /></h3>
+                      <span>English</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3><img src="assets/img/svg/flag_indonesia.svg" className="svg" alt="indonesia_flag" /></h3>
+                      <span>Indonesia</span>
                     </div>
                   </li>
                 </ul>

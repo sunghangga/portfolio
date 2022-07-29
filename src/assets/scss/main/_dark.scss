@@ -117,9 +117,6 @@ body.dark .tokyo_tm_home .social li a {
 body.dark .tokyo_tm_all_wrap .leftpart img {
   filter: invert(1);
 }
-body.dark .tokyo_tm_home .avatar .image {
-  background-image: url(../../1.jpg) !important;
-}
 body.dark .cursor-inner {
   margin-left: -3px;
   margin-top: -3px;
@@ -173,11 +170,28 @@ body.dark .tokyo_tm_about .description .right > ul > li a:hover {
 body.dark .tokyo_tm_about .description .right > ul > li span {
   color: #fff;
 }
-body.dark .tokyo_tm_modalbox_about .counter ul li h3 {
-  color: #000;
-}
 body.dark .tokyo_tm_modalbox_about .counter ul li span {
-  color: #767676;
+  color:#bbb;
+}
+body.dark .tokyo_tm_modalbox_about .box-inner {
+  background:#151515;
+}
+body.dark .tokyo_tm_modalbox_about .box-inner .about_title h3 {
+  color:#fff;
+}
+body.dark .tokyo_tm_modalbox_about .box-inner .progress_inner>span {
+  color:#bbb;
+}
+body.dark .tokyo_tm_modalbox_about .box-inner .progress_inner .background .bar_in {
+  background:#bbb;
+}
+body.dark .tokyo_tm_modalbox_about .box-inner .list_inner {
+  border:1px solid hsla(0,0%,100%,.5);
+}
+body.dark .tokyo_tm_modalbox_about .box-inner .partners .slick-list .slick-slide li img {
+  -webkit-filter:invert(1);
+  filter:invert(1);
+  background:#fff
 }
 body.dark .tokyo_tm_title span {
   background-color: rgba(255, 255, 255, 0.08);
@@ -204,12 +218,31 @@ body.dark .tokyo_tm_news ul li .details .date a {
 body.dark .tokyo_tm_news ul li .details .date a:hover {
   color: #fff;
 }
-body.dark .tokyo_tm_modalbox_news .details .title {
-  color: #000;
+body.dark .tokyo_tm_modalbox_news .date,
+body.dark .tokyo_tm_modalbox_news .date a,
+body.dark .tokyo_tm_modalbox_news .descriptions .bigger {
+  color:#bbb;
 }
-body.dark .tokyo_tm_modalbox_news .main_content .descriptions p {
-  color: #767676;
+body.dark .tokyo_tm_modalbox_news .main_content .icon .svg {
+  -webkit-filter:invert(1);
+  filter:invert(1);
 }
+body.dark .tokyo_tm_modalbox_news .main_content .news_share span {
+  color:#fff
+}
+body.dark .box_inner {
+  background:#151515;
+  overflow-y:visible;
+  overflow-y:initial
+}
+body.dark .description_wrap .image {
+  z-index:auto
+}
+body.dark .mymodal {
+  border:none;
+  background:#101010;
+}
+
 body.dark .tokyo_tm_contact .fields ul li input {
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;

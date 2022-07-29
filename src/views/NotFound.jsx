@@ -1,27 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Theme from "../components/Theme";
 
 const NotFound = () => {
+  const [theme, setTheme] = useState("light");
+
   return (
     <div className="not-found-wrapper">
       <div className="leftpart">
         <div className="leftpart_inner">
           <div className="logo">
-            <Link className="navbar-brand" to="/">
-              <img src="/assets/img/logo/dark.png" alt="brand" />
-            </Link>
+            <Theme theme={theme} setTheme={setTheme} />
           </div>
           {/* END LOGO */}
           <div className="copyright">
             <p>
-              &copy; 2021 Tokyo <br /> Created by
-              <a
-                href="https://themeforest.net/user/ib-themes"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Ib-Themes
-              </a>
+              &copy; {new Date().getFullYear()} Portfolio <br /> Created with Love
             </p>
           </div>
           {/* END COPYRIGHT */}

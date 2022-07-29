@@ -3,50 +3,122 @@
         {
             "title": "Meal Planning",
             "year": 2022,
+            "thumbnail": "assets/img/portfolio/wisecraft/1.png",
             "gallery": [
                 [
-                    "assets/img/news/1.jpg"
+                    "assets/img/portfolio/wisecraft/2.png"
                 ],
                 [
-                    "assets/img/news/2.jpg"
+                    "assets/img/portfolio/wisecraft/3.png"
                 ],
                 [
-                    "assets/img/news/3.jpg"
+                    "assets/img/portfolio/wisecraft/4.png"
+                ],
+                [
+                    "assets/img/portfolio/wisecraft/5.png"
                 ]
             ],
             "url": null,
-            "description": "Meal Planning system is a system used to planning food needs, based on the age and needs of the customer."
+            "description": "Meal Planning is a system used to planning food needs, based on the age and needs of the customer. Below is an example for demo purposes."
         },
         {
             "title": "IDI Denpasar",
             "year": 2021,
+            "thumbnail": "assets/img/portfolio/idi/1.png",
             "gallery": [
                 [
-                    "assets/img/news/4.jpg"
+                    "assets/img/portfolio/idi/2.png"
                 ],
                 [
-                    "assets/img/news/2.jpg"
+                    "assets/img/portfolio/idi/3.png"
                 ],
                 [
-                    "assets/img/news/3.jpg"
+                    "assets/img/portfolio/idi/4.png"
                 ]
             ],
-            "url": null,
-            "description": "A system from Indonesia doctor association branch Denpasar to manage website, dues, and document."
+            "url": "https://ididenpasar.org/",
+            "description": "A system from Indonesia doctor association branch Denpasar to manage website, dues, and document. Below is an example for demo purposes."
         },
         {
             "title": "M-Sales Credit",
             "year": 2020,
+            "thumbnail": "assets/img/portfolio/msalescredit/1.png",
             "gallery": [
                 [
-                    "assets/img/news/1.jpg"
+                    "assets/img/portfolio/msalescredit/2.png"
                 ],
                 [
-                    "assets/img/news/4.jpg"
+                    "assets/img/portfolio/msalescredit/3.png"
                 ]
             ],
-            "url": "https://www.google.com/",
-            "description": "M-Sales Credit is a collaboration tool that organizes projects into boards. In one glance, M-Sales Credit tells you what's being worked on, who's working on what, and where something is in a process. Imagine a white board, filled with lists of sticky notes, with each note as a task for you and your team. This system is specifically for monitoring sales surveys."
+            "url": null,
+            "description": "M-Sales Credit is a collaboration tool that organizes projects into boards. In one glance, M-Sales Credit tells you what's being worked on, who's working on what, give some comment, and where something is in a process. Imagine a white board, filled with lists of sticky notes, with each note as a task for you and your team. This system is specifically for monitoring sales surveys. Below is an example for demo purposes."
+        },
+        {
+            "title": "Horizon Express",
+            "year": 2020,
+            "thumbnail": "assets/img/portfolio/horizonexpress/1.png",
+            "gallery": [
+                [
+                    "assets/img/portfolio/horizonexpress/2.png"
+                ],
+                [
+                    "assets/img/portfolio/horizonexpress/3.png"
+                ]
+            ],
+            "url": "http://103.28.22.19/horizonexpress/index.php/login",
+            "description": "This system is used to ship management and tracking. Below is an example for demo purposes."
+        },
+        {
+            "title": "Junior Lab",
+            "year": 2020,
+            "thumbnail": "assets/img/portfolio/juniorlab/1.png",
+            "gallery": [
+                [
+                    "assets/img/portfolio/juniorlab/2.png"
+                ],
+                [
+                    "assets/img/portfolio/juniorlab/3.png"
+                ],
+                [
+                    "assets/img/portfolio/juniorlab/4.png"
+                ]
+            ],
+            "url": "https://juniorlab.teknologion.com/admin",
+            "description": "A system for scheduling tutoring management and simple payment and delivery features. Below is an example for demo purposes."
+        },
+        {
+            "title": "Moodle Monitoring",
+            "year": 2019,
+            "thumbnail": "assets/img/portfolio/moodlemonitor/1.png",
+            "gallery": [
+                [
+                    "assets/img/portfolio/moodlemonitor/2.png"
+                ],
+                [
+                    "assets/img/portfolio/moodlemonitor/3.png"
+                ]
+            ],
+            "url": null,
+            "description": "A system for monitoring and evaluating elearning at Udayana University. This system connected to moodle using moodle API for sharing data. Below is an example for demo purposes."
+        },
+        {
+            "title": "ARMAN",
+            "year": 2018,
+            "thumbnail": "assets/img/portfolio/arman/1.png",
+            "gallery": [
+                [
+                    "assets/img/portfolio/arman/2.png"
+                ],
+                [
+                    "assets/img/portfolio/arman/3.png"
+                ],
+                [
+                    "assets/img/portfolio/arman/4.png"
+                ]
+            ],
+            "url": null,
+            "description": "ARMAN is an abbreviation for Augmented Reality for mathematics and Natural Science. This mobile application is using augmented reality technology to help student learning in mathematics and science. Below is an example for demo purposes."
         }
     ]
 }

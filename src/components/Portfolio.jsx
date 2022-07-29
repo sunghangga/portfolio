@@ -10,7 +10,7 @@ const ModalPortfolio = ({item, isOpen, toggleModal}) => {
     if (url !== null) {
       return (
         <div className="tokyo_tm_button">
-          <button onClick={() => openInNewTab(url)} className="ib-button ib-button-fix-dark">
+          <button onClick={() => openInNewTab(url)} className="ib-button">
             Visit Site
           </button>
         </div>
@@ -42,11 +42,11 @@ const ModalPortfolio = ({item, isOpen, toggleModal}) => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <img src={item.thumbnail} alt="tumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/news/1.jpg)",
+                    backgroundImage: `url(${item.thumbnail})`,
                   }}
                 ></div>
               </div>
@@ -62,7 +62,7 @@ const ModalPortfolio = ({item, isOpen, toggleModal}) => {
                 </h3>
               </div>
               {/* END DETAILS */}
-              <div className="main_content ">
+              <div className="main_content">
                 <div className="descriptions">
                   <p className="bigger">
                     {item.description}
@@ -139,11 +139,11 @@ const Portfolio = () => {
               <li key={i}>
                 <div className="list_inner">
                   <div className="image" onClick={() => toggleModal(item)}>
-                    <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
+                    <img src={item.thumbnail} alt="thumb" />
                     <div
                       className="main"
                       style={{
-                        backgroundImage: "url(assets/img/news/1.jpg)",
+                        backgroundImage: `url(${item.thumbnail})`,
                       }}
                     ></div>
                   </div>
