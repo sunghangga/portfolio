@@ -15,6 +15,8 @@ npm run start
 ### Compiles and minifies for production
 ```
 npm run build
+npm install -g serve // If not installed yet
+serve -s build
 ```
 
 ### Lints and fixes files
