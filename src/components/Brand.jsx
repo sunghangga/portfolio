@@ -31,16 +31,16 @@ export default function SimpleSlider() {
     <ul>
       <Slider {...settings}>
         <li className="item">
-          <img src="assets/img/partners/kanastudio.png" alt="partners brand" />
+          <img src="./assets/img/partners/kanastudio.png" alt="partners brand" />
         </li>
         <li className="item">
-          <img src="assets/img/partners/balinesiakit.png" alt="partners brand" />
+          <img src="./assets/img/partners/balinesiakit.png" alt="partners brand" />
         </li>
         <li className="item">
-          <img src="assets/img/partners/juniorlab.png" alt="partners brand" />
+          <img src="./assets/img/partners/juniorlab.png" alt="partners brand" />
         </li>
         <li className="item">
-          <img src="assets/img/partners/ididenpasar.png" alt="partners brand" />
+          <img src="./assets/img/partners/ididenpasar.png" alt="partners brand" />
         </li>
       </Slider>
     </ul>

@@ -15,7 +15,7 @@ const About = () => {
     <>
       <div className="tokyo_tm_about">
         <div className="about_image">
-          <img src="assets/img/slider/view.jpg" alt="about" />
+          <img src="./assets/img/slider/view.jpg" alt="about" />
         </div>
         {/* END ABOUT IMAGE */}
         <div className="description">
@@ -90,7 +90,7 @@ const About = () => {
       >
         <div className="tokyo_tm_modalbox_about">
           <button className="close-modal" onClick={toggleModal}>
-            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+            <img src="./assets/img/svg/cancel.svg" alt="close icon" />
           </button>
           {/* END POPUP CLOSE BUTTON */}
           <div className="box-inner">
@@ -102,85 +102,85 @@ const About = () => {
                 <ul>
                   <li>
                     <div className="list_inner">
-                      <h3><img src="assets/img/svg/portfolio/java.svg" className="svg" alt="java" /></h3>
+                      <h3><img src="./assets/img/svg/portfolio/java.svg" className="svg" alt="java" /></h3>
                       <span>Java</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3><img src="assets/img/svg/portfolio/spring.svg" className="svg" alt="spring" /></h3>
+                      <h3><img src="./assets/img/svg/portfolio/spring.svg" className="svg" alt="spring" /></h3>
                       <span>Spring</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3><img src="assets/img/svg/portfolio/jenkins.svg" className="svg" alt="jenkins" /></h3>
+                      <h3><img src="./assets/img/svg/portfolio/jenkins.svg" className="svg" alt="jenkins" /></h3>
                       <span>Jenkins</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3><img src="assets/img/svg/portfolio/python.svg" className="svg" alt="python" /></h3>
+                      <h3><img src="./assets/img/svg/portfolio/python.svg" className="svg" alt="python" /></h3>
                       <span>Python</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3><img src="assets/img/svg/portfolio/flask.svg" className="svg" alt="flask" /></h3>
+                      <h3><img src="./assets/img/svg/portfolio/flask.svg" className="svg" alt="flask" /></h3>
                       <span>Flask</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3><img src="assets/img/svg/portfolio/javascript.svg" className="svg" alt="javascript" /></h3>
+                      <h3><img src="./assets/img/svg/portfolio/javascript.svg" className="svg" alt="javascript" /></h3>
                       <span>Javascript</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3><img src="assets/img/svg/portfolio/reactjs.svg" className="svg" alt="reactjs" /></h3>
+                      <h3><img src="./assets/img/svg/portfolio/reactjs.svg" className="svg" alt="reactjs" /></h3>
                       <span>React JS</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3><img src="assets/img/svg/portfolio/vuejs.svg" className="svg" alt="vuejs" /></h3>
+                      <h3><img src="./assets/img/svg/portfolio/vuejs.svg" className="svg" alt="vuejs" /></h3>
                       <span>Vue JS</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3><img src="assets/img/svg/portfolio/extjs.svg" className="svg" alt="extjs" /></h3>
+                      <h3><img src="./assets/img/svg/portfolio/extjs.svg" className="svg" alt="extjs" /></h3>
                       <span>EXT JS</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3><img src="assets/img/svg/portfolio/docker.svg" className="svg" alt="docker" /></h3>
+                      <h3><img src="./assets/img/svg/portfolio/docker.svg" className="svg" alt="docker" /></h3>
                       <span>Docker</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3><img src="assets/img/svg/portfolio/redis.svg" className="svg" alt="redis" /></h3>
+                      <h3><img src="./assets/img/svg/portfolio/redis.svg" className="svg" alt="redis" /></h3>
                       <span>Redis</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3><img src="assets/img/svg/portfolio/mosquitto.svg" className="svg" alt="mosquitto" /></h3>
+                      <h3><img src="./assets/img/svg/portfolio/mosquitto.svg" className="svg" alt="mosquitto" /></h3>
                       <span>Mosquitto MQTT</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3><img src="assets/img/svg/portfolio/php.svg" className="svg" alt="php" /></h3>
+                      <h3><img src="./assets/img/svg/portfolio/php.svg" className="svg" alt="php" /></h3>
                       <span>PHP</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3><img src="assets/img/svg/portfolio/laravel.svg" className="svg" alt="laravel" /></h3>
+                      <h3><img src="./assets/img/svg/portfolio/laravel.svg" className="svg" alt="laravel" /></h3>
                       <span>Laravel</span>
                     </div>
                   </li>
@@ -196,13 +196,13 @@ const About = () => {
                 <ul>
                   <li>
                     <div className="list_inner">
-                      <h3><img src="assets/img/svg/flag_english.svg" className="svg" alt="english_flag" /></h3>
+                      <h3><img src="./assets/img/svg/flag_english.svg" className="svg" alt="english_flag" /></h3>
                       <span>English</span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3><img src="assets/img/svg/flag_indonesia.svg" className="svg" alt="indonesia_flag" /></h3>
+                      <h3><img src="./assets/img/svg/flag_indonesia.svg" className="svg" alt="indonesia_flag" /></h3>
                       <span>Indonesia</span>
                     </div>
                   </li>

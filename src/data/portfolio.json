@@ -3,19 +3,19 @@
         {
             "title": "Meal Planning",
             "year": 2022,
-            "thumbnail": "assets/img/portfolio/wisecraft/1.png",
+            "thumbnail": "./assets/img/portfolio/wisecraft/1.png",
             "gallery": [
                 [
-                    "assets/img/portfolio/wisecraft/2.png"
+                    "./assets/img/portfolio/wisecraft/2.png"
                 ],
                 [
-                    "assets/img/portfolio/wisecraft/3.png"
+                    "./assets/img/portfolio/wisecraft/3.png"
                 ],
                 [
-                    "assets/img/portfolio/wisecraft/4.png"
+                    "./assets/img/portfolio/wisecraft/4.png"
                 ],
                 [
-                    "assets/img/portfolio/wisecraft/5.png"
+                    "./assets/img/portfolio/wisecraft/5.png"
                 ]
             ],
             "url": null,
@@ -24,16 +24,16 @@
         {
             "title": "IDI Denpasar",
             "year": 2021,
-            "thumbnail": "assets/img/portfolio/idi/1.png",
+            "thumbnail": "./assets/img/portfolio/idi/1.png",
             "gallery": [
                 [
-                    "assets/img/portfolio/idi/2.png"
+                    "./assets/img/portfolio/idi/2.png"
                 ],
                 [
-                    "assets/img/portfolio/idi/3.png"
+                    "./assets/img/portfolio/idi/3.png"
                 ],
                 [
-                    "assets/img/portfolio/idi/4.png"
+                    "./assets/img/portfolio/idi/4.png"
                 ]
             ],
             "url": "https://ididenpasar.org/",
@@ -42,13 +42,13 @@
         {
             "title": "M-Sales Credit",
             "year": 2020,
-            "thumbnail": "assets/img/portfolio/msalescredit/1.png",
+            "thumbnail": "./assets/img/portfolio/msalescredit/1.png",
             "gallery": [
                 [
-                    "assets/img/portfolio/msalescredit/2.png"
+                    "./assets/img/portfolio/msalescredit/2.png"
                 ],
                 [
-                    "assets/img/portfolio/msalescredit/3.png"
+                    "./assets/img/portfolio/msalescredit/3.png"
                 ]
             ],
             "url": null,
@@ -57,13 +57,13 @@
         {
             "title": "Horizon Express",
             "year": 2020,
-            "thumbnail": "assets/img/portfolio/horizonexpress/1.png",
+            "thumbnail": "./assets/img/portfolio/horizonexpress/1.png",
             "gallery": [
                 [
-                    "assets/img/portfolio/horizonexpress/2.png"
+                    "./assets/img/portfolio/horizonexpress/2.png"
                 ],
                 [
-                    "assets/img/portfolio/horizonexpress/3.png"
+                    "./assets/img/portfolio/horizonexpress/3.png"
                 ]
             ],
             "url": "http://103.28.22.19/horizonexpress/index.php/login",
@@ -72,16 +72,16 @@
         {
             "title": "Junior Lab",
             "year": 2020,
-            "thumbnail": "assets/img/portfolio/juniorlab/1.png",
+            "thumbnail": "./assets/img/portfolio/juniorlab/1.png",
             "gallery": [
                 [
-                    "assets/img/portfolio/juniorlab/2.png"
+                    "./assets/img/portfolio/juniorlab/2.png"
                 ],
                 [
-                    "assets/img/portfolio/juniorlab/3.png"
+                    "./assets/img/portfolio/juniorlab/3.png"
                 ],
                 [
-                    "assets/img/portfolio/juniorlab/4.png"
+                    "./assets/img/portfolio/juniorlab/4.png"
                 ]
             ],
             "url": "https://juniorlab.teknologion.com/admin",
@@ -90,13 +90,13 @@
         {
             "title": "Moodle Monitoring",
             "year": 2019,
-            "thumbnail": "assets/img/portfolio/moodlemonitor/1.png",
+            "thumbnail": "./assets/img/portfolio/moodlemonitor/1.png",
             "gallery": [
                 [
-                    "assets/img/portfolio/moodlemonitor/2.png"
+                    "./assets/img/portfolio/moodlemonitor/2.png"
                 ],
                 [
-                    "assets/img/portfolio/moodlemonitor/3.png"
+                    "./assets/img/portfolio/moodlemonitor/3.png"
                 ]
             ],
             "url": null,
@@ -105,16 +105,16 @@
         {
             "title": "ARMAN",
             "year": 2018,
-            "thumbnail": "assets/img/portfolio/arman/1.png",
+            "thumbnail": "./assets/img/portfolio/arman/1.png",
             "gallery": [
                 [
-                    "assets/img/portfolio/arman/2.png"
+                    "./assets/img/portfolio/arman/2.png"
                 ],
                 [
-                    "assets/img/portfolio/arman/3.png"
+                    "./assets/img/portfolio/arman/3.png"
                 ],
                 [
-                    "assets/img/portfolio/arman/4.png"
+                    "./assets/img/portfolio/arman/4.png"
                 ]
             ],
             "url": null,

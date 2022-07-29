@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 const Routes = () => {
   return (
     <>
-      <Router>
+      <Router basename={process.env.REACT_APP_BASE_URL}>
         <Switch>
           <Route exact path="/" component={HomeLight} />
           <Route component={NotFound} />
