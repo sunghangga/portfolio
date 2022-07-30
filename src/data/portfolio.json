@@ -70,7 +70,7 @@
             "description": "This system is used to ship management and tracking. This system is built using Code Igniter and PostgreSQLBelow is an example for demo purposes."
         },
         {
-            "title": "ERP (Enterprise Resource Planning)",
+            "title": "Enterprise Resource Planning",
             "year": 2020,
             "thumbnail": "./assets/img/portfolio/erp/1.png",
             "gallery": [
