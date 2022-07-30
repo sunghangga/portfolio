@@ -65,11 +65,6 @@ const About = () => {
                     <span>Study:</span>Udayana Univercity
                   </p>
                 </li>
-                <li>
-                  <p>
-                    <span>Freelance:</span>Available
-                  </p>
-                </li>
               </ul>
               {/* END UL */}
             </div>

@@ -19,7 +19,7 @@
                 ]
             ],
             "url": null,
-            "description": "Meal Planning is a system used to planning food needs, based on the age and needs of the customer. Below is an example for demo purposes."
+            "description": "Meal Planning is a system used to planning food needs, based on the age and needs of the customer. This system is built using ReactJS, Laravel, and AWS. Below is an example for demo purposes."
         },
         {
             "title": "IDI Denpasar",
@@ -37,7 +37,7 @@
                 ]
             ],
             "url": "https://ididenpasar.org/",
-            "description": "A system from Indonesia doctor association branch Denpasar to manage website, dues, and document. Below is an example for demo purposes."
+            "description": "A system from Indonesia doctor association branch Denpasar to manage website, dues, and document. This system is built using Laravel and MySQL. Below is an example for demo purposes."
         },
         {
             "title": "M-Sales Credit",
@@ -52,7 +52,7 @@
                 ]
             ],
             "url": null,
-            "description": "M-Sales Credit is a collaboration tool that organizes projects into boards. In one glance, M-Sales Credit tells you what's being worked on, who's working on what, give some comment, and where something is in a process. Imagine a white board, filled with lists of sticky notes, with each note as a task for you and your team. This system is specifically for monitoring sales surveys. Below is an example for demo purposes."
+            "description": "M-Sales Credit is a collaboration tool that organizes projects into boards. In one glance, M-Sales Credit tells you what's being worked on, who's working on what, give some comment, and where something is in a process. Imagine a white board, filled with lists of sticky notes, with each note as a task for you and your team. This system is specifically for monitoring sales surveys. This system is built using Code Igniter and PostgreSQL. Below is an example for demo purposes."
         },
         {
             "title": "Horizon Express",
@@ -67,7 +67,19 @@
                 ]
             ],
             "url": "http://103.28.22.19/horizonexpress/index.php/login",
-            "description": "This system is used to ship management and tracking. Below is an example for demo purposes."
+            "description": "This system is used to ship management and tracking. This system is built using Code Igniter and PostgreSQLBelow is an example for demo purposes."
+        },
+        {
+            "title": "ERP (Enterprise Resource Planning)",
+            "year": 2020,
+            "thumbnail": "./assets/img/portfolio/erp/1.png",
+            "gallery": [
+                [
+                    "./assets/img/portfolio/erp/2.png"
+                ]
+            ],
+            "url": null,
+            "description": "This system is used to manage sales, shipment, inventory, etc. This system is built using Grails, Jasper, ExtJS, and PostgreSQL. Below is an example for demo purposes."
         },
         {
             "title": "Junior Lab",
@@ -85,7 +97,7 @@
                 ]
             ],
             "url": "https://juniorlab.teknologion.com/admin",
-            "description": "A system for scheduling tutoring management and simple payment and delivery features. Below is an example for demo purposes."
+            "description": "A system for scheduling tutoring management and simple payment and delivery features. This system is built using Laravel and MySQL. Below is an example for demo purposes."
         },
         {
             "title": "Moodle Monitoring",
@@ -100,7 +112,7 @@
                 ]
             ],
             "url": null,
-            "description": "A system for monitoring and evaluating elearning at Udayana University. This system connected to moodle using moodle API for sharing data. Below is an example for demo purposes."
+            "description": "A system for monitoring and evaluating elearning at Udayana University. This system connected to moodle using moodle API for sharing data. This system is built using VueJS, Laravel, and MySQL. Below is an example for demo purposes."
         },
         {
             "title": "ARMAN",
@@ -118,7 +130,7 @@
                 ]
             ],
             "url": null,
-            "description": "ARMAN is an abbreviation for Augmented Reality for mathematics and Natural Science. This mobile application is using augmented reality technology to help student learning in mathematics and science. Below is an example for demo purposes."
+            "description": "ARMAN is an abbreviation for Augmented Reality for mathematics and Natural Science. This mobile application is using augmented reality technology to help student learning in mathematics and science. This system is built using Unity with C# language and Vuforia plugin. Below is an example for demo purposes."
         }
     ]
 }

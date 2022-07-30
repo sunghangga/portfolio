@@ -160,7 +160,7 @@ const Portfolio = () => {
                       {item.title}
                     </h3>
                     <div className="tokyo_tm_read_more">
-                      <a onClick={() => toggleModal(item)}>
+                      <a href="# " onClick={() => toggleModal(item)}>
                         <span>Read More</span>
                       </a>
                     </div>
