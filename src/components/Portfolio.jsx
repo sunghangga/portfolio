@@ -71,6 +71,9 @@ const ModalPortfolio = ({item, isOpen, toggleModal}) => {
                   {visitSite(item.url)}
                 </div>
                 {/* END DESCRIPTION */}
+                <div className="news_share">
+                  <span>Details:</span>
+                </div>
                 <div className="tokyo_tm_portfolio pt-0">
                   <div className="list_wrapper">
                     <SRLWrapper>
