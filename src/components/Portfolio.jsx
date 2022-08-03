@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import * as portfolioData from "../data/portfolio.json";
-import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
+import { SRLWrapper, useLightbox } from "simple-react-lightbox";
 
 Modal.setAppElement("#root");
 
@@ -18,6 +18,7 @@ const ModalPortfolio = ({item, isOpen, toggleModal}) => {
     }
   }
 
+  const { openLightbox } = useLightbox()
   const openInNewTab = url => {
     // 👇️ setting target to _blank with window.open
     window.open(url, '_blank', 'noopener,noreferrer');
@@ -70,34 +71,35 @@ const ModalPortfolio = ({item, isOpen, toggleModal}) => {
                   {visitSite(item.url)}
                 </div>
                 {/* END DESCRIPTION */}
-                <SimpleReactLightbox>
-                  <div className="tokyo_tm_portfolio pt-0">
-                    <div className="list_wrapper">
-                      <SRLWrapper>
-                        <ul className="portfolio_list">
-                          {item.gallery.map((detail, j) => {
-                            return (
-                              <li key={j}>
-                                <div className="inner">
-                                  <div className="entry tokyo_tm_portfolio_animation_wrap">
-                                    <a href={detail}>
-                                      <img
-                                        src={detail}
-                                        alt="Portfolio"
-                                      />
-                                    </a>
-                                  </div>
+                <div className="tokyo_tm_portfolio pt-0">
+                  <div className="list_wrapper">
+                    <SRLWrapper>
+                      <ul className="portfolio_list">
+                        {item.gallery.map((detail, j) => {
+                          return (
+                            <li key={j}>
+                              <div className="inner">
+                                <div className="entry tokyo_tm_portfolio_animation_wrap">
+                                  <a href={detail}>
+                                    <img
+                                      src={detail}
+                                      alt={`Portfolio ${j + 1}`}
+                                    />
+                                  </a>
+                                  <button onClick={() => openLightbox(j)} className="btn-image">
+                                    View
+                                  </button>
                                 </div>
-                              </li>
-                            )
-                          })}
-                        </ul>
-                        {/* END ALL PORTFOLIO GALLERY */}
-                      </SRLWrapper>
-                      {/* END TABPANEL */}
-                    </div>
+                              </div>
+                            </li>
+                          )
+                        })}
+                      </ul>
+                      {/* END ALL PORTFOLIO GALLERY */}
+                    </SRLWrapper>
+                    {/* END TABPANEL */}
                   </div>
-                </SimpleReactLightbox>
+                </div>
                 {/* END GALLERY */}
               </div>
             </div>

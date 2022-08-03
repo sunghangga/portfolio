@@ -24,7 +24,7 @@ body.dark ::-ms-input-placeholder {
 }
 @media (max-width: 1200px) {
   body.dark .tokyo_tm_all_wrap .leftpart {
-    box-shadow: 0 0 20px #252525;
+    box-shadow: 0 0 5px #252525;
   }
 }
 
@@ -157,10 +157,6 @@ body.dark .tokyo_tm_button .ib-button {
   background-color: #fff;
   color: #000;
 }
-body.dark .tokyo_tm_button .ib-button-fix-dark {
-  background-color: #000 !important;
-  color: #fff !important;
-}
 body.dark .tokyo_tm_about .description .right > ul > li a {
   color: #bbb;
 }
@@ -188,11 +184,6 @@ body.dark .tokyo_tm_modalbox_about .box-inner .progress_inner .background .bar_i
 body.dark .tokyo_tm_modalbox_about .box-inner .list_inner {
   border:1px solid hsla(0,0%,100%,.5);
 }
-// body.dark .tokyo_tm_modalbox_about .box-inner .partners .slick-list .slick-slide li img {
-//   -webkit-filter:invert(1);
-//   filter:invert(1);
-//   background:#fff
-// }
 body.dark .tokyo_tm_title span {
   background-color: rgba(255, 255, 255, 0.08);
   color: #999;
@@ -291,9 +282,12 @@ body.dark .tokyo_tm_read_more a span {
   background-color: #000;
 }
 body.dark .tokyo_tm_news ul li .list_inner {
-  box-shadow: 0 0 20px #252525;
+  box-shadow: 0 0 5px #252525;
 }
-
 body.dark .tokyo_tm_news ul li .image {
   background: #111;
+}
+
+body.dark .tokyo_tm_portfolio .portfolio_list li .inner {
+  box-shadow: 0 0 5px;
 }
