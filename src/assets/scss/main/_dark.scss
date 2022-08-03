@@ -197,6 +197,9 @@ body.dark .tokyo_tm_portfolio .portfolio_filter ul li {
 body.dark .tokyo_tm_portfolio .portfolio_filter ul li:hover {
   color: #fff;
 }
+body.dark .tokyo_tm_portfolio .portfolio_list li .inner {
+  box-shadow: 0 0 5px;
+}
 body.dark .tokyo_tm_news ul li .details .title a {
   color: #fff;
 }
@@ -286,8 +289,4 @@ body.dark .tokyo_tm_news ul li .list_inner {
 }
 body.dark .tokyo_tm_news ul li .image {
   background: #111;
-}
-
-body.dark .tokyo_tm_portfolio .portfolio_list li .inner {
-  box-shadow: 0 0 5px;
 }
