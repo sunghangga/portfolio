@@ -90,7 +90,7 @@ const ModalPortfolio = ({item, isOpen, toggleModal}) => {
                                     />
                                   </a>
                                   <button onClick={() => openLightbox(j)} className="btn-image">
-                                    <span><img src="./assets/img/svg/search.svg" className="svg" alt="search icon" /> </span>
+                                    <span><embed src="./assets/img/svg/search.svg" className="svg" /> </span>
                                   </button>
                                 </div>
                               </div>
