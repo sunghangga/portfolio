@@ -13,7 +13,7 @@ const About = () => {
 
   return (
     <>
-      <div className="tokyo_tm_about">
+      <div className="osean_tm_about">
         <div className="about_image">
           <img src="./assets/img/slider/view.jpg" alt="about" />
         </div>
@@ -33,12 +33,12 @@ const About = () => {
                 such as software engineer, and devops staff. 
                 I also work directly with clients.
               </p>
-              <div className="tokyo_tm_button">
+              <div className="osean_tm_button">
                 <button onClick={toggleModal} className="ib-button">
                   Read More
                 </button>
               </div>
-              {/* END TOKYO BUTTON */}
+              {/* END OSEAN BUTTON */}
             </div>
             {/* END LEFT */}
             <div className="right">
@@ -83,7 +83,7 @@ const About = () => {
         overlayClassName="myoverlay"
         closeTimeoutMS={500}
       >
-        <div className="tokyo_tm_modalbox_about">
+        <div className="osean_tm_modalbox_about">
           <button className="close-modal" onClick={toggleModal}>
             <img src="./assets/img/svg/cancel.svg" alt="close icon" />
           </button>

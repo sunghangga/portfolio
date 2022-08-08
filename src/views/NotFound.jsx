@@ -25,10 +25,10 @@ const NotFound = () => {
 
       <div className="rightpart">
         <div className="rightpart_in">
-          <div className="tokyo_tm_section">
+          <div className="osean_tm_section">
             <div className="container">
-              <div className="tokyo_tm_error">
-                <div className="tokyo_tm_error_inner">
+              <div className="osean_tm_error">
+                <div className="osean_tm_error_inner">
                   <h1>404!</h1>
                   <h3>Page not found</h3>
                   <p>The page you were looking for could not be found.</p>

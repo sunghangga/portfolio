@@ -74,7 +74,7 @@ const HomeLight = () => {
         {/* START RIGHT PART CONTENT */}
         <div className="rightpart">
           <div className="rightpart_in">
-            <div className="tokyo_tm_section">
+            <div className="osean_tm_section">
               <div className="container">
                 <TabPanel>
                   <Home />

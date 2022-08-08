@@ -5,30 +5,30 @@
 /*	This file is made for CURRENT TEMPLATE
 
 /*---------------------------------------------------*/
-/*	01) TOKYO  PREVIEW
+/*	01) OSEAN  PREVIEW
 /*---------------------------------------------------*/
 
-.tokyo_tm_intro .short_info{
+.osean_tm_intro .short_info{
 	position: fixed;
 	top: 10%;
 	width: 100%;
 	text-align: center;
 }
-.tokyo_tm_intro .short_info img{
+.osean_tm_intro .short_info img{
 	margin-bottom: 25px;
 }
-.tokyo_tm_intro .short_info h3{
+.osean_tm_intro .short_info h3{
 	font-size: 20px;
 	color: #767676;
 }
-.tokyo_tm_intro{
+.osean_tm_intro{
 	width: 100%;
 	height: 100vh;
 	clear: both;
 	float: left;
 	position: relative;
 }
-.tokyo_tm_intro .demos{
+.osean_tm_intro .demos{
 	width: 100%;
 	height: 100%;
 	clear: both;
@@ -37,8 +37,8 @@
 	text-align: center;
 	position: relative;
 }
-.tokyo_tm_intro .left,
-.tokyo_tm_intro .right{
+.osean_tm_intro .left,
+.osean_tm_intro .right{
 	width: 50%;
 	height: 100%;
 	display: flex;
@@ -50,7 +50,7 @@
 		text-decoration: none;
 	}
 }
-.tokyo_tm_intro .demos img{
+.osean_tm_intro .demos img{
 	max-width: 400px;
 	margin-bottom: 25px;
 	@media (max-width: 1040px){
@@ -58,18 +58,18 @@
 	}
 
 }
-.tokyo_tm_intro .desc{
+.osean_tm_intro .desc{
 	position: relative;
 	top: 0px;
 	transition: all .3s ease;
 }
-.tokyo_tm_intro .desc h3{
+.osean_tm_intro .desc h3{
 	font-size: 20px;
 	font-weight: 800;
 }
-.tokyo_tm_intro .intro_line,
-.tokyo_tm_intro .intro_line_2,
-.tokyo_tm_intro .intro_line_3{
+.osean_tm_intro .intro_line,
+.osean_tm_intro .intro_line_2,
+.osean_tm_intro .intro_line_3{
 	position: fixed;
 	top: 0px;
 	width: 1px;
@@ -79,17 +79,17 @@
 	z-index: -1;
 	background-color: rgba(0,0,0,.06);
 }
-.tokyo_tm_intro .intro_line{
+.osean_tm_intro .intro_line{
 	left: 25%;
 }
-.tokyo_tm_intro .intro_line_2{
+.osean_tm_intro .intro_line_2{
 	left: 50%;
 	transform: translateY(-50%);
 }
-.tokyo_tm_intro .intro_line_3{
+.osean_tm_intro .intro_line_3{
 	left: 75%;
 }
-.tokyo_tm_intro .intro_link{
+.osean_tm_intro .intro_link{
 	position: absolute;
 	z-index: 2;
 	top: 0px;
@@ -97,10 +97,10 @@
 	left: 0px;
 	right: 0px;
 }
-.tokyo_tm_intro .left:hover .desc{top: -20px;}
-.tokyo_tm_intro .right:hover .desc{top: -20px;}
-.tokyo_tm_intro_fixed_price .pricing-info,
-.tokyo_tm_intro_fixed_price .anim {text-decoration: none;
+.osean_tm_intro .left:hover .desc{top: -20px;}
+.osean_tm_intro .right:hover .desc{top: -20px;}
+.osean_tm_intro_fixed_price .pricing-info,
+.osean_tm_intro_fixed_price .anim {text-decoration: none;
 	color: #fff;
     font-family: "Montserrat";
     background-color: #e54b4b;
@@ -158,17 +158,17 @@
     }
 }
 
-.tokyo_tm_intro_fixed_price .anim:nth-child(1) {
+.osean_tm_intro_fixed_price .anim:nth-child(1) {
     -webkit-animation: myAnim 2s infinite;
     animation: myAnim 2s infinite
 }
 
-.tokyo_tm_intro_fixed_price .anim:nth-child(2) {
+.osean_tm_intro_fixed_price .anim:nth-child(2) {
     -webkit-animation: myAnim 2s infinite .3s;
     animation: myAnim 2s infinite .3s
 }
 
-.tokyo_tm_intro_fixed_price .anim:nth-child(3) {
+.osean_tm_intro_fixed_price .anim:nth-child(3) {
     -webkit-animation: myAnim 2s infinite .6s;
     animation: myAnim 2s infinite .6s
 }

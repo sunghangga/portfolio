@@ -9,7 +9,7 @@ const ModalPortfolio = ({item, isOpen, toggleModal}) => {
   function visitSite(url) {
     if (url !== null) {
       return (
-        <div className="tokyo_tm_button">
+        <div className="osean_tm_button">
           <button onClick={() => openInNewTab(url)} className="ib-button">
             Visit Site
           </button>
@@ -35,7 +35,7 @@ const ModalPortfolio = ({item, isOpen, toggleModal}) => {
         overlayClassName="myoverlay"
         closeTimeoutMS={500}
       >
-        <div className="tokyo_tm_modalbox_news">
+        <div className="osean_tm_modalbox_news">
           <button className="close-modal" onClick={() => toggleModal(item)}>
             <img src="./assets/img/svg/cancel.svg" alt="close icon" />
           </button>
@@ -74,7 +74,7 @@ const ModalPortfolio = ({item, isOpen, toggleModal}) => {
                 <div className="news_share">
                   <span>Details:</span>
                 </div>
-                <div className="tokyo_tm_portfolio pt-0">
+                <div className="osean_tm_portfolio pt-0">
                   <div className="list_wrapper">
                     <SRLWrapper>
                       <ul className="portfolio_list">
@@ -82,7 +82,7 @@ const ModalPortfolio = ({item, isOpen, toggleModal}) => {
                           return (
                             <li key={j}>
                               <div className="inner">
-                                <div className="entry tokyo_tm_portfolio_animation_wrap">
+                                <div className="entry osean_tm_portfolio_animation_wrap">
                                   <a href={detail}>
                                     <img
                                       src={detail}
@@ -127,8 +127,8 @@ const Portfolio = () => {
 
   return (
     <>
-      <div className="tokyo_tm_news">
-        <div className="tokyo_tm_title">
+      <div className="osean_tm_news">
+        <div className="osean_tm_title">
           <div className="title_flex">
             <div className="left">
               <span>Portfolio</span>
@@ -164,7 +164,7 @@ const Portfolio = () => {
                     <h3 className="title" onClick={() => toggleModal(item)}>
                       {item.title}
                     </h3>
-                    <div className="tokyo_tm_read_more">
+                    <div className="osean_tm_read_more">
                       <a href="# " onClick={() => toggleModal(item)}>
                         <span>Read More</span>
                       </a>

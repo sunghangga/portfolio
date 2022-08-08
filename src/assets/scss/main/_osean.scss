@@ -3,21 +3,21 @@
 /*	Author: ib-themes
 /*	This file is made for CURRENT TEMPLATE
 
-01)	TOKYO BASE
-02) TOKYO LEFTPART
-03) TOKYO RIGHTPART
-04) TOKYO HOME
-05) TOKYO ABOUT
-06) TOKYO PORTFOLIO
-07) TOKYO NEWS
-08) TOKYO CONTACT
-09) TOKYO MAGIC CURSOR
-10) TOKYO MEDIA QUERIES (FOR SMALL DEVIVES)
-11) TOKYO 404
+01)	OSEAN BASE
+02) OSEAN LEFTPART
+03) OSEAN RIGHTPART
+04) OSEAN HOME
+05) OSEAN ABOUT
+06) OSEAN PORTFOLIO
+07) OSEAN NEWS
+08) OSEAN CONTACT
+09) OSEAN MAGIC CURSOR
+10) OSEAN MEDIA QUERIES (FOR SMALL DEVIVES)
+11) OSEAN 404
 
 
 /*---------------------------------------------------*/
-/*	01)	TOKYO BASE
+/*	01)	OSEAN BASE
 /*---------------------------------------------------*/
 
 html {
@@ -115,15 +115,15 @@ h6 {
   font-size: 16px;
 }
 
-.tokyo_tm_all_wrap {
+.osean_tm_all_wrap {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   position: relative;
 }
-.tokyo_tm_all_wrap,
-.tokyo_tm_all_wrap * {
+.osean_tm_all_wrap,
+.osean_tm_all_wrap * {
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
@@ -248,10 +248,10 @@ h6 {
 }
 
 /*---------------------------------------------------*/
-/*	02) TOKYO LEFTPART
+/*	02) OSEAN LEFTPART
 /*---------------------------------------------------*/
 
-.tokyo_tm_all_wrap .leftpart {
+.osean_tm_all_wrap .leftpart {
   width: 450px;
   height: 100vh;
   position: fixed;
@@ -263,23 +263,23 @@ h6 {
   padding: 0px 100px;
   background-color: #fff;
 }
-.tokyo_tm_all_wrap .leftpart_inner {
+.osean_tm_all_wrap .leftpart_inner {
   width: 100%;
   height: auto;
 }
-.tokyo_tm_all_wrap .leftpart img {
+.osean_tm_all_wrap .leftpart img {
   max-width: 150px;
 }
-.tokyo_tm_all_wrap .leftpart .menu {
+.osean_tm_all_wrap .leftpart .menu {
   padding: 40px 0px 50px 0px;
   width: 100%;
   float: left;
 }
-.tokyo_tm_all_wrap .leftpart .menu ul {
+.osean_tm_all_wrap .leftpart .menu ul {
   margin: 0px;
   list-style-type: none;
 }
-.tokyo_tm_all_wrap .leftpart .menu ul li {
+.osean_tm_all_wrap .leftpart .menu ul li {
   margin: 0px;
   width: 100%;
   float: left;
@@ -294,26 +294,26 @@ h6 {
     display: none;
   }
 }
-.tokyo_tm_all_wrap .leftpart .menu > ul li:hover {
+.osean_tm_all_wrap .leftpart .menu > ul li:hover {
   color: #000;
   letter-spacing: 2px;
 }
-.tokyo_tm_all_wrap .leftpart .menu ul li.react-tabs__tab--selected {
+.osean_tm_all_wrap .leftpart .menu ul li.react-tabs__tab--selected {
   color: #000;
   letter-spacing: 2px;
 }
-.tokyo_tm_all_wrap .leftpart .copyright {
+.osean_tm_all_wrap .leftpart .copyright {
   width: 100%;
   float: left;
 }
-.tokyo_tm_all_wrap .leftpart .copyright p {
+.osean_tm_all_wrap .leftpart .copyright p {
   font-size: 15px;
   color: #999;
   font-family: "Montserrat";
   line-height: 25px;
   font-style: italic;
 }
-.tokyo_tm_all_wrap .leftpart .copyright a {
+.osean_tm_all_wrap .leftpart .copyright a {
   text-decoration: none;
   color: #787878;
   font-weight: 500;
@@ -325,16 +325,16 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.tokyo_tm_all_wrap .leftpart .copyright a:hover {
+.osean_tm_all_wrap .leftpart .copyright a:hover {
   color: #000;
   letter-spacing: 2px;
 }
 
 /*---------------------------------------------------*/
-/*	03) TOKYO RIGHTPART
+/*	03) OSEAN RIGHTPART
 /*---------------------------------------------------*/
 
-.tokyo_tm_all_wrap .rightpart {
+.osean_tm_all_wrap .rightpart {
   width: 100%;
   min-height: 100vh;
   float: left;
@@ -342,7 +342,7 @@ h6 {
   background-color: #f8f8f8;
   padding-left: 450px;
 }
-.tokyo_tm_all_wrap .rightpart_in {
+.osean_tm_all_wrap .rightpart_in {
   position: relative;
   width: 100%;
   float: left;
@@ -350,7 +350,7 @@ h6 {
   border-left: 1px solid #ebebeb;
   min-height: 100vh;
 }
-.tokyo_tm_section {
+.osean_tm_section {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -361,11 +361,11 @@ h6 {
   overflow-y: auto;
 }
 // page animation
-.tokyo_tm_home,
-.tokyo_tm_about,
-.tokyo_tm_portfolio,
-.tokyo_tm_news,
-.tokyo_tm_contact {
+.osean_tm_home,
+.osean_tm_about,
+.osean_tm_portfolio,
+.osean_tm_news,
+.osean_tm_contact {
   -webkit-animation: 800ms ease-in-out 0s normal none 1 running customOne;
   animation: 800ms ease-in-out 0s normal none 1 running customOne;
 }
@@ -386,8 +386,8 @@ h6 {
 }
 
 // preview page animation
-.tokyo_tm_intro .left,
-.tokyo_tm_intro .right {
+.osean_tm_intro .left,
+.osean_tm_intro .right {
   -webkit-animation: 800ms ease-in-out 0s normal none 1 running slideTop;
   animation: 800ms ease-in-out 0s normal none 1 running slideTop;
 }
@@ -407,16 +407,16 @@ h6 {
   animation-name: slideTop;
 }
 
-.tokyo_tm_section .list_wrapper .react-tabs__tab-panel--selected {
+.osean_tm_section .list_wrapper .react-tabs__tab-panel--selected {
   -webkit-animation: 800ms ease-in-out 0s normal none 1 running slideTop;
   animation: 800ms ease-in-out 0s normal none 1 running slideTop;
 }
 
 /*---------------------------------------------------*/
-/*	04) TOKYO HOME
+/*	04) OSEAN HOME
 /*---------------------------------------------------*/
 
-.tokyo_tm_home {
+.osean_tm_home {
   width: 100%;
   min-height: 100vh;
   clear: both;
@@ -425,17 +425,17 @@ h6 {
   justify-content: center;
   position: relative;
 }
-.tokyo_tm_home .home_content {
+.osean_tm_home .home_content {
   display: flex;
   align-items: center;
 }
-.tokyo_tm_home .avatar {
+.osean_tm_home .avatar {
   min-width: 300px;
   min-height: 300px;
   position: relative;
   border-radius: 100%;
 }
-.tokyo_tm_home .avatar .image {
+.osean_tm_home .avatar .image {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -463,23 +463,23 @@ h6 {
   }
 }
 
-.tokyo_tm_home .details {
+.osean_tm_home .details {
   margin-left: 80px;
 }
-.tokyo_tm_home .details .name {
+.osean_tm_home .details .name {
   font-size: 55px;
   font-weight: 800;
   text-transform: uppercase;
   margin-bottom: 19px;
 }
-.tokyo_tm_home .details .job {
+.osean_tm_home .details .job {
   font-family: "Montserrat";
   font-style: italic;
   font-weight: 500;
   // max-width: 450px;
   margin-bottom: 30px;
 }
-.tokyo_tm_home .social {
+.osean_tm_home .social {
   width: 100%;
   float: left;
 }
@@ -513,70 +513,70 @@ h6 {
 }
 
 /*---------------------------------------------------*/
-/*	05) TOKYO ABOUT
+/*	05) OSEAN ABOUT
 /*---------------------------------------------------*/
 
-.tokyo_tm_about {
+.osean_tm_about {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   padding: 100px 0px 100px 0px;
 }
-.tokyo_tm_about .about_image {
+.osean_tm_about .about_image {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   margin-bottom: 48px;
 }
-.tokyo_tm_about .about_image img {
+.osean_tm_about .about_image img {
   min-width: 100%;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
 }
-.tokyo_tm_about .description {
+.osean_tm_about .description {
   width: 100%;
   height: auto;
   clear: both;
 }
-.tokyo_tm_about .description_inner {
+.osean_tm_about .description_inner {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.tokyo_tm_about .description .left {
+.osean_tm_about .description .left {
   width: 55%;
   padding-right: 50px;
 }
-.tokyo_tm_about .description .left p {
+.osean_tm_about .description .left p {
   margin-bottom: 35px;
   font-style: italic;
 }
-.tokyo_tm_about .description .name {
+.osean_tm_about .description .name {
   font-weight: 700;
   font-size: 22px;
   margin-bottom: 26px;
 }
-.tokyo_tm_about .description .right {
+.osean_tm_about .description .right {
   width: 45%;
   padding-left: 50px;
 }
-.tokyo_tm_about .description .right > ul {
+.osean_tm_about .description .right > ul {
   margin: 0px;
   list-style-type: none;
 }
-.tokyo_tm_about .description .right > ul > li {
+.osean_tm_about .description .right > ul > li {
   margin: 0px;
   width: 100%;
   float: left;
 }
-.tokyo_tm_about .description .right > ul > li span {
+.osean_tm_about .description .right > ul > li span {
   min-width: 90px;
   display: inline-block;
   font-weight: 700;
   color: #000;
 }
-.tokyo_tm_about .description .right > ul > li a {
+.osean_tm_about .description .right > ul > li a {
   text-decoration: none;
   color: #787878;
 
@@ -586,17 +586,17 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.tokyo_tm_about .description .right > ul > li a:hover {
+.osean_tm_about .description .right > ul > li a:hover {
   color: #000;
   letter-spacing: 2px;
 }
-.tokyo_tm_button {
+.osean_tm_button {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
-.tokyo_tm_button a,
+.osean_tm_button a,
 .ib-button {
   text-decoration: none;
   color: #fff;
@@ -620,22 +620,22 @@ h6 {
     outline: none;
   }
 }
-.tokyo_tm_button a:hover,
+.osean_tm_button a:hover,
 .ib-button:hover {
   letter-spacing: 2px;
 }
 
-.tokyo_tm_modalbox_about .close .svg {
+.osean_tm_modalbox_about .close .svg {
   width: 50px;
   height: 50px;
 }
 
-.tokyo_tm_modalbox_about .description_wrap {
+.osean_tm_modalbox_about .description_wrap {
   position: relative;
   padding: 110px 70px 70px;
   overflow: auto;
 }
-.tokyo_tm_modalbox_about .my_box {
+.osean_tm_modalbox_about .my_box {
   width: 100%;
   height: auto;
   clear: both;
@@ -645,17 +645,17 @@ h6 {
     margin-bottom: 60px;
   }
 }
-.tokyo_tm_modalbox_about .my_box .left {
+.osean_tm_modalbox_about .my_box .left {
   width: 50%;
   padding-right: 50px;
 }
-.tokyo_tm_modalbox_about .about_title h3 {
+.osean_tm_modalbox_about .about_title h3 {
   font-weight: 700;
   color: #000;
   font-size: 20px;
 }
 
-.tokyo_progress {
+.osean_progress {
   width: 100%;
   height: auto;
   clear: both;
@@ -729,11 +729,11 @@ h6 {
   }
 }
 
-.tokyo_tm_modalbox_about .my_box .right {
+.osean_tm_modalbox_about .my_box .right {
   width: 50%;
   padding-left: 50px;
 }
-.tokyo_tm_modalbox_about .counter {
+.osean_tm_modalbox_about .counter {
   width: 100%;
   float: left;
   clear: both;
@@ -741,7 +741,7 @@ h6 {
     margin-bottom: 30px;
   }
 }
-.tokyo_tm_modalbox_about .counter ul {
+.osean_tm_modalbox_about .counter ul {
   margin: 0px 0px 42px -30px;
   list-style-type: none;
   padding-top: 45px;
@@ -749,7 +749,7 @@ h6 {
   align-items: center;
   flex-wrap: wrap;
 }
-.tokyo_tm_modalbox_about .counter ul li {
+.osean_tm_modalbox_about .counter ul li {
   margin: 0px 0px 50px 0px;
   width: 33.3333%;
   float: left;
@@ -758,7 +758,7 @@ h6 {
     margin-bottom: 30px;
   }
 }
-.tokyo_tm_modalbox_about .list_inner {
+.osean_tm_modalbox_about .list_inner {
   width: 100%;
   height: 100%;
   clear: both;
@@ -768,25 +768,25 @@ h6 {
   text-align: center;
   padding: 40px 20px;
 }
-.tokyo_tm_modalbox_about .counter ul li h3 {
+.osean_tm_modalbox_about .counter ul li h3 {
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 3px;
 }
-.tokyo_tm_modalbox_about .counter ul li span {
+.osean_tm_modalbox_about .counter ul li span {
   font-style: italic;
 }
-.tokyo_tm_modalbox_about .counter ul li .svg {
+.osean_tm_modalbox_about .counter ul li .svg {
   width: auto;
   height: 80px;
 }
-.tokyo_tm_modalbox_about .partners {
+.osean_tm_modalbox_about .partners {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
-.tokyo_tm_modalbox_about .partners {
+.osean_tm_modalbox_about .partners {
   .slick-list {
     margin-top: 20px;
     .slick-slide {
@@ -798,41 +798,41 @@ h6 {
     }
   }
 }
-.tokyo_tm_modalbox_about .partners ul {
+.osean_tm_modalbox_about .partners ul {
   margin: 0px;
   list-style-type: none;
   padding-top: 15px;
 }
-.tokyo_tm_modalbox_about .partners ul {
+.osean_tm_modalbox_about .partners ul {
   .slick-initialized .slick-slide {
     padding: 5px;
   }
 }
-.tokyo_tm_modalbox_about .partners ul li {
+.osean_tm_modalbox_about .partners ul li {
   margin: 0px;
   opacity: 0.5;
   transition: all 0.3s ease;
 }
-.tokyo_tm_modalbox_about .partners ul li:hover {
+.osean_tm_modalbox_about .partners ul li:hover {
   opacity: 1;
 }
 
 /*---------------------------------------------------*/
-/*	06) TOKYO PORTFOLIO
+/*	06) OSEAN PORTFOLIO
 /*---------------------------------------------------*/
 
-.tokyo_tm_title {
+.osean_tm_title {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   margin-bottom: 62px;
 }
-.tokyo_tm_title h3 {
+.osean_tm_title h3 {
   font-weight: 800;
   font-family: "Montserrat";
 }
-.tokyo_tm_title span {
+.osean_tm_title span {
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.04);
   text-transform: uppercase;
@@ -844,7 +844,7 @@ h6 {
   letter-spacing: 0px;
   margin-bottom: 15px;
 }
-.tokyo_tm_title .title_flex {
+.osean_tm_title .title_flex {
   width: 100%;
   height: auto;
   clear: both;
@@ -852,11 +852,11 @@ h6 {
   justify-content: space-between;
   align-items: flex-end;
 }
-.tokyo_tm_portfolio .portfolio_filter .react-tabs__tab-list {
+.osean_tm_portfolio .portfolio_filter .react-tabs__tab-list {
   margin: 0px;
   list-style-type: none;
 }
-.tokyo_tm_portfolio .portfolio_filter .react-tabs__tab-list li {
+.osean_tm_portfolio .portfolio_filter .react-tabs__tab-list li {
   margin: 0px 25px 0px 0px;
   text-decoration: none;
   color: #767676;
@@ -869,25 +869,25 @@ h6 {
     margin: 0px 15px 0px 0px;
   }
 }
-.tokyo_tm_portfolio .portfolio_filter .react-tabs__tab-list li:last-child {
+.osean_tm_portfolio .portfolio_filter .react-tabs__tab-list li:last-child {
   margin-right: 0px;
 }
 
-.tokyo_tm_portfolio .portfolio_filter .react-tabs__tab-list li:hover,
-.tokyo_tm_portfolio
+.osean_tm_portfolio .portfolio_filter .react-tabs__tab-list li:hover,
+.osean_tm_portfolio
   .portfolio_filter
   .react-tabs__tab-list
   li.react-tabs__tab--selected {
   color: #000;
   letter-spacing: 2px;
 }
-.tokyo_tm_portfolio .list_wrapper {
+.osean_tm_portfolio .list_wrapper {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
-.tokyo_tm_portfolio {
+.osean_tm_portfolio {
   width: 100%;
   height: auto;
   clear: both;
@@ -895,11 +895,11 @@ h6 {
   padding: 100px 0px 50px 0px;
   position: relative;
 }
-.tokyo_tm_portfolio .portfolio_list {
+.osean_tm_portfolio .portfolio_list {
   margin: 0px 0px 0px -50px;
   list-style-type: none;
 }
-.tokyo_tm_portfolio .portfolio_list li {
+.osean_tm_portfolio .portfolio_list li {
   margin: 0px 0px 50px 0px;
   float: left;
   width: 50%;
@@ -908,7 +908,7 @@ h6 {
     margin: 0px 0px 30px 0px;
   }
 }
-.tokyo_tm_portfolio .portfolio_list li .inner {
+.osean_tm_portfolio .portfolio_list li .inner {
   width: 100%;
   height: 100%;
   clear: both;
@@ -917,7 +917,7 @@ h6 {
   position: relative;
   box-shadow: 0 0 20px #dfdfdf;
 }
-.tokyo_tm_portfolio .portfolio_list li .inner a {
+.osean_tm_portfolio .portfolio_list li .inner a {
   position: relative;
   overflow: hidden;
   &:hover {
@@ -926,7 +926,7 @@ h6 {
     }
   }
 }
-.tokyo_tm_portfolio .portfolio_list li .inner img {
+.osean_tm_portfolio .portfolio_list li .inner img {
   width: 100%;
   height: 215px;
   object-fit: cover;
@@ -945,7 +945,7 @@ ul.react-tabs__tab-list {
     padding-bottom: 25px;
   }
 }
-.tokyo_tm_portfolio .portfolio_list li .inner .main_image {
+.osean_tm_portfolio .portfolio_list li .inner .main_image {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -961,10 +961,10 @@ ul.react-tabs__tab-list {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.tokyo_tm_portfolio .portfolio_list li .inner:hover .main_image {
+.osean_tm_portfolio .portfolio_list li .inner:hover .main_image {
   transform: scale(1.1) translateZ(0);
 }
-.tokyo_tm_portfolio_titles {
+.osean_tm_portfolio_titles {
   white-space: nowrap;
   background: #ffffff;
   font-size: 18px;
@@ -977,11 +977,11 @@ ul.react-tabs__tab-list {
   opacity: 0;
   visibility: hidden;
 }
-.tokyo_tm_portfolio_titles.visible {
+.osean_tm_portfolio_titles.visible {
   opacity: 1;
   visibility: visible;
 }
-.tokyo_tm_portfolio_titles .work__cat {
+.osean_tm_portfolio_titles .work__cat {
   position: absolute;
   background: #ffffff;
   top: 100%;
@@ -999,21 +999,21 @@ ul.react-tabs__tab-list {
 }
 
 /*---------------------------------------------------*/
-/*	07) TOKYO NEWS 
+/*	07) OSEAN NEWS 
 /*---------------------------------------------------*/
 
-.tokyo_tm_news {
+.osean_tm_news {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   padding: 100px 0px 45px 0px;
 }
-.tokyo_tm_news ul {
+.osean_tm_news ul {
   margin: 0px 0px 0px -50px;
   list-style-type: none;
 }
-.tokyo_tm_news ul li {
+.osean_tm_news ul li {
   margin: 0px 0px 45px 0px;
   float: left;
   width: 50%;
@@ -1022,7 +1022,7 @@ ul.react-tabs__tab-list {
     margin: 0px 0px 40px 0px;
   }
 }
-.tokyo_tm_news ul li .list_inner {
+.osean_tm_news ul li .list_inner {
   width: 100%;
   height: auto;
   clear: both;
@@ -1031,16 +1031,16 @@ ul.react-tabs__tab-list {
   background: #fff;
   box-shadow: 0 0 20px #dfdfdf;
 }
-.tokyo_tm_news ul li .image {
+.osean_tm_news ul li .image {
   position: relative;
   overflow: hidden;
   cursor: pointer;
 }
-.tokyo_tm_news ul li .image img {
+.osean_tm_news ul li .image img {
   min-width: 100%;
   opacity: 0;
 }
-.tokyo_tm_news ul li .image .main {
+.osean_tm_news ul li .image .main {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -1051,10 +1051,10 @@ ul.react-tabs__tab-list {
   background-position: center;
   transition: all 0.3s ease-in-out;
 }
-.tokyo_tm_news ul li .list_inner:hover .main {
+.osean_tm_news ul li .list_inner:hover .main {
   transform: scale(1.1) translateZ(0);
 }
-.tokyo_tm_news ul li .details {
+.osean_tm_news ul li .details {
   width: 100%;
   float: left;
   padding: 30px 40px 25px;
@@ -1063,7 +1063,7 @@ ul.react-tabs__tab-list {
     padding: 30px 25px 25px;
   }
 }
-.tokyo_tm_news ul li .details .title {
+.osean_tm_news ul li .details .title {
   position: relative;
   margin-bottom: 10px;
   text-decoration: none;
@@ -1074,7 +1074,7 @@ ul.react-tabs__tab-list {
   display: inline-block;
   cursor: pointer;
 }
-.tokyo_tm_news ul li .extra {
+.osean_tm_news ul li .extra {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1083,7 +1083,7 @@ ul.react-tabs__tab-list {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 5px;
 }
-.tokyo_tm_read_more {
+.osean_tm_read_more {
   width: 100%;
   height: auto;
   clear: both;
@@ -1091,7 +1091,7 @@ ul.react-tabs__tab-list {
   position: relative;
   overflow: hidden;
 }
-.tokyo_tm_read_more a {
+.osean_tm_read_more a {
   text-decoration: none;
   display: inline-block;
   overflow: hidden;
@@ -1104,7 +1104,7 @@ ul.react-tabs__tab-list {
   font-family: montserrat;
   cursor: pointer;
 }
-.tokyo_tm_read_more a:before {
+.osean_tm_read_more a:before {
   position: absolute;
   content: "";
   background-color: #000;
@@ -1121,7 +1121,7 @@ ul.react-tabs__tab-list {
   animation-duration: 0.4s;
   animation-timing-function: cubic-bezier(0.6, 0.01, 0, 1);
 }
-.tokyo_tm_read_more a span {
+.osean_tm_read_more a span {
   display: inline-block;
   position: relative;
   background-color: #fff;
@@ -1132,10 +1132,10 @@ ul.react-tabs__tab-list {
     transform: translateX(0%);
   }
 }
-.tokyo_tm_news ul li .details .title:hover {
+.osean_tm_news ul li .details .title:hover {
   color: #000;
 }
-.tokyo_tm_news ul li .list_inner .tokyo_tm_read_more a:before {
+.osean_tm_news ul li .list_inner .osean_tm_read_more a:before {
   @media screen and (max-width: 767px) {
     animation: read-more-anim-2;
     animation-fill-mode: forwards;
@@ -1143,7 +1143,7 @@ ul.react-tabs__tab-list {
     animation-timing-function: cubic-bezier(0.6, 0.01, 0, 1);
   }
 }
-.tokyo_tm_news ul li .list_inner:hover .tokyo_tm_read_more a:before {
+.osean_tm_news ul li .list_inner:hover .osean_tm_read_more a:before {
   animation: read-more-anim-2;
   animation-fill-mode: forwards;
   animation-duration: 0.4s;
@@ -1167,29 +1167,29 @@ ul.react-tabs__tab-list {
     transform: scaleX(0.2);
   }
 }
-.tokyo_tm_news ul li .details .date {
+.osean_tm_news ul li .details .date {
   text-transform: capitalize;
   font-family: "Montserrat";
   font-size: 13px;
   color: #767676;
   font-style: italic;
 }
-.tokyo_tm_news ul li .list_inner:hover .tokyo_tm_read_more a span {
+.osean_tm_news ul li .list_inner:hover .osean_tm_read_more a span {
   transform: translateX(0%);
 }
-.tokyo_tm_news ul li .details .date a {
+.osean_tm_news ul li .details .date a {
   text-decoration: none;
   color: #767676;
   transition: all 0.3s ease;
 }
-.tokyo_tm_news ul li .details .date a:hover {
+.osean_tm_news ul li .details .date a:hover {
   color: #000;
 }
-.tokyo_tm_news ul li .details .date span {
+.osean_tm_news ul li .details .date span {
   position: relative;
   // margin-left: 11px;
 }
-.tokyo_tm_news ul li .details .date span:before {
+.osean_tm_news ul li .details .date span:before {
   position: absolute;
   // content: "";
   margin-top: 1px;
@@ -1201,7 +1201,7 @@ ul.react-tabs__tab-list {
   height: 9px;
   margin-right: 5px;
 }
-.tokyo_tm_full_link {
+.osean_tm_full_link {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -1209,8 +1209,8 @@ ul.react-tabs__tab-list {
   right: 0px;
   z-index: 4;
 }
-.tokyo_tm_modalbox_news .box_inner,
-.tokyo_tm_modalbox_about .box-inner {
+.osean_tm_modalbox_news .box_inner,
+.osean_tm_modalbox_about .box-inner {
   height: 75vh;
   width: 968px;
   overflow-y: auto;
@@ -1233,35 +1233,35 @@ ul.react-tabs__tab-list {
     height: 500px;
   }
 }
-.tokyo_tm_modalbox_news.opened {
+.osean_tm_modalbox_news.opened {
   opacity: 1;
   visibility: visible;
 }
-.tokyo_tm_modalbox_news .container {
+.osean_tm_modalbox_news .container {
   height: 100vh;
 }
 
-.tokyo_tm_modalbox_news.opened .box_inner {
+.osean_tm_modalbox_news.opened .box_inner {
   opacity: 1;
   visibility: visible;
   margin-top: 0px;
 }
-.tokyo_tm_modalbox_news .close {
+.osean_tm_modalbox_news .close {
   position: fixed;
   left: 100%;
   top: 0px;
   margin-left: 40px;
   z-index: 111111;
 }
-.tokyo_tm_modalbox_news .close a {
+.osean_tm_modalbox_news .close a {
   text-decoration: none;
   color: #fff;
 }
-.tokyo_tm_modalbox_news .close .svg {
+.osean_tm_modalbox_news .close .svg {
   width: 50px;
   height: 50px;
 }
-.tokyo_tm_modalbox_news .description_wrap {
+.osean_tm_modalbox_news .description_wrap {
   position: relative;
   width: 100%;
   height: 100%;
@@ -1269,22 +1269,22 @@ ul.react-tabs__tab-list {
   overflow-y: auto;
   padding: 70px;
 }
-.tokyo_tm_modalbox_news .details {
+.osean_tm_modalbox_news .details {
   width: 100%;
   float: left;
   margin-bottom: 30px;
 }
-.tokyo_tm_modalbox_news .description_wrap .image {
+.osean_tm_modalbox_news .description_wrap .image {
   position: relative;
   max-height: 450px;
   z-index: -1;
   margin-bottom: 40px;
 }
-.tokyo_tm_modalbox_news .description_wrap .image img {
+.osean_tm_modalbox_news .description_wrap .image img {
   min-width: 100%;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
 }
-.tokyo_tm_modalbox_news .description_wrap .image .main {
+.osean_tm_modalbox_news .description_wrap .image .main {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -1294,7 +1294,7 @@ ul.react-tabs__tab-list {
   background-position: center;
   background-size: cover;
 }
-.tokyo_tm_modalbox_news .details .extra {
+.osean_tm_modalbox_news .details .extra {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1303,7 +1303,7 @@ ul.react-tabs__tab-list {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 8px;
 }
-.tokyo_tm_modalbox_news .details .title {
+.osean_tm_modalbox_news .details .title {
   font-weight: 600;
   font-size: 23px;
   margin-bottom: 9px;
@@ -1311,14 +1311,14 @@ ul.react-tabs__tab-list {
     line-height: 1.5;
   }
 }
-.tokyo_tm_modalbox_news .date {
+.osean_tm_modalbox_news .date {
   text-transform: uppercase;
   font-family: "Montserrat";
   font-size: 12px;
   color: #767676;
   font-style: italic;
 }
-.tokyo_tm_modalbox_news .date a {
+.osean_tm_modalbox_news .date a {
   text-decoration: none;
   color: #767676;
 
@@ -1328,14 +1328,14 @@ ul.react-tabs__tab-list {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.tokyo_tm_modalbox_news .date a:hover {
+.osean_tm_modalbox_news .date a:hover {
   color: #e54b4b;
 }
-.tokyo_tm_modalbox_news .date span {
+.osean_tm_modalbox_news .date span {
   position: relative;
   // margin-left: 11px;
 }
-.tokyo_tm_modalbox_news .date span:before {
+.osean_tm_modalbox_news .date span:before {
   position: absolute;
   // content: "";
   margin-top: 0px;
@@ -1347,7 +1347,7 @@ ul.react-tabs__tab-list {
   height: 9px;
   margin-right: 7px;
 }
-.tokyo_tm_news .main_content {
+.osean_tm_news .main_content {
   opacity: 0;
   visibility: hidden;
   position: absolute;
@@ -1357,24 +1357,24 @@ ul.react-tabs__tab-list {
 body.modal {
   overflow-y: hidden;
 }
-.tokyo_tm_modalbox_news .main_content {
+.osean_tm_modalbox_news .main_content {
   width: 100%;
   float: left;
 }
-.tokyo_tm_modalbox_news .main_content .descriptions {
+.osean_tm_modalbox_news .main_content .descriptions {
   width: 100%;
   float: left;
   margin-bottom: 15px;
 }
-.tokyo_tm_modalbox_news .main_content .descriptions .bigger {
+.osean_tm_modalbox_news .main_content .descriptions .bigger {
   color: #888;
   font-size: 20px;
   margin-bottom: 33px;
 }
-.tokyo_tm_modalbox_news .main_content .descriptions p, button {
+.osean_tm_modalbox_news .main_content .descriptions p, button {
   margin-bottom: 22px;
 }
-.tokyo_tm_modalbox_news .main_content .quotebox {
+.osean_tm_modalbox_news .main_content .quotebox {
   width: 100%;
   height: auto;
   clear: both;
@@ -1384,22 +1384,22 @@ body.modal {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.tokyo_tm_modalbox_news .main_content .quotebox p {
+.osean_tm_modalbox_news .main_content .quotebox p {
   font-size: 20px;
   font-style: italic;
   margin-bottom: 23px;
 }
-.tokyo_tm_modalbox_news .main_content .icon {
+.osean_tm_modalbox_news .main_content .icon {
   position: absolute;
   left: 0px;
   top: 10px;
 }
-.tokyo_tm_modalbox_news .main_content .icon .svg {
+.osean_tm_modalbox_news .main_content .icon .svg {
   width: 40px;
   height: 40px;
   color: #000;
 }
-.tokyo_tm_modalbox_news .news_share {
+.osean_tm_modalbox_news .news_share {
   width: 100%;
   height: auto;
   clear: both;
@@ -1407,107 +1407,107 @@ body.modal {
   align-items: center;
   padding-bottom: 10px;
 }
-.tokyo_tm_modalbox_news .news_share span {
+.osean_tm_modalbox_news .news_share span {
   font-family: "Montserrat";
   font-weight: 600;
   font-style: italic;
   padding-right: 20px;
   color: #000;
 }
-.tokyo_tm_modalbox_news .news_share ul {
+.osean_tm_modalbox_news .news_share ul {
   margin: 0px;
   list-style-type: none;
   position: relative;
   top: -2px;
 }
-.tokyo_tm_modalbox_news .news_share ul li {
+.osean_tm_modalbox_news .news_share ul li {
   margin: 0px 12px 0px 0px;
   display: inline-block;
 }
-.tokyo_tm_modalbox_news .news_share ul li .svg {
+.osean_tm_modalbox_news .news_share ul li .svg {
   width: 15px;
   height: 15px;
 }
 
 /*---------------------------------------------------*/
-/*	08) TOKYO CONTACT
+/*	08) OSEAN CONTACT
 /*---------------------------------------------------*/
 
-.tokyo_tm_contact {
+.osean_tm_contact {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   padding: 100px 0px 100px 0px;
 }
-.tokyo_tm_contact .map_wrap {
+.osean_tm_contact .map_wrap {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   margin-bottom: 50px;
 }
-.tokyo_tm_contact .map_wrap .map > div {
+.osean_tm_contact .map_wrap .map > div {
   height: 400px !important;
   width: 100% !important;
 }
-.tokyo_tm_contact .map_wrap .map iframe {
+.osean_tm_contact .map_wrap .map iframe {
   width: 100%;
   height: 400px !important;
 }
-.tokyo_tm_contact .fields {
+.osean_tm_contact .fields {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
-.tokyo_tm_contact .fields .first {
+.osean_tm_contact .fields .first {
   width: 100%;
   float: left;
 }
-.tokyo_tm_contact .fields ul {
+.osean_tm_contact .fields ul {
   margin: 0px;
   list-style-type: none;
 }
-.tokyo_tm_contact .fields ul li {
+.osean_tm_contact .fields ul li {
   width: 100%;
   margin: 0px 0px 30px 0px;
   float: left;
 }
-.tokyo_tm_contact .fields ul li input {
+.osean_tm_contact .fields ul li input {
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.2);
   background-color: transparent;
   font-style: italic;
 }
-.tokyo_tm_contact .fields ul li input:focus {
+.osean_tm_contact .fields ul li input:focus {
   outline: none;
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
-.tokyo_tm_contact .fields textarea {
+.osean_tm_contact .fields textarea {
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.2);
   height: 120px;
   resize: none;
   background-color: transparent;
 }
-.tokyo_tm_contact .fields textarea:focus {
+.osean_tm_contact .fields textarea:focus {
   outline: none;
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
-.tokyo_tm_contact .empty_notice {
+.osean_tm_contact .empty_notice {
   color: #f52225;
   margin-bottom: 7px;
   display: none;
   text-align: left;
   font-weight: 500;
 }
-.tokyo_tm_contact ul li span {
+.osean_tm_contact ul li span {
   color: #f52225;
   text-align: left;
   font-weight: 500;
 }
-.tokyo_tm_contact .returnmessage {
+.osean_tm_contact .returnmessage {
   color: #3a00ff;
   margin-bottom: 7px;
   text-align: left;
@@ -1515,10 +1515,10 @@ body.modal {
 }
 
 /*---------------------------------------------------*/
-/*	9) TOKYO MAGIC CURSOR
+/*	9) OSEAN MAGIC CURSOR
 /*---------------------------------------------------*/
 
-.tokyo_tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor {
+.osean_tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor {
   display: none;
 }
 .mouse-cursor {
@@ -1569,28 +1569,28 @@ body.modal {
 }
 
 /*---------------------------------------------------*/
-/*	10) TOKYO MEDIA QUERIES (FOR SMALL DEVIVES)
+/*	10) OSEAN MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
 
 @media (max-width: 1600px) {
-  .tokyo_tm_all_wrap .leftpart {
+  .osean_tm_all_wrap .leftpart {
     width: 400px;
   }
-  .tokyo_tm_section {
+  .osean_tm_section {
     padding-left: 400px;
   }
-  .tokyo_tm_all_wrap .rightpart {
+  .osean_tm_all_wrap .rightpart {
     padding-left: 400px;
   }
 }
 @media (max-width: 1200px) {
-  .tokyo_tm_mobile_menu {
+  .osean_tm_mobile_menu {
     display: block;
   }
-  .tokyo_tm_section {
+  .osean_tm_section {
     padding-left: 0px;
   }
-  .tokyo_tm_all_wrap .leftpart {
+  .osean_tm_all_wrap .leftpart {
     position: fixed;
     width: 100%;
     height: auto;
@@ -1602,7 +1602,7 @@ body.modal {
     background-color: #fff;
     box-shadow: 0 0 30px rgba(62, 68, 125, 0.08);
   }
-  .tokyo_tm_all_wrap .leftpart .leftpart_inner {
+  .osean_tm_all_wrap .leftpart .leftpart_inner {
     width: 100%;
     display: flex;
     align-items: center;
@@ -1612,22 +1612,22 @@ body.modal {
       padding: 20px 15px;
     }
   }
-  .tokyo_tm_all_wrap .leftpart .leftpart_inner .navbar-brand img {
+  .osean_tm_all_wrap .leftpart .leftpart_inner .navbar-brand img {
     max-width: 100px;
   }
-  .tokyo_tm_all_wrap .leftpart .leftpart_inner .copyright {
+  .osean_tm_all_wrap .leftpart .leftpart_inner .copyright {
     display: none;
   }
-  .tokyo_tm_all_wrap .leftpart .leftpart_inner .menu {
+  .osean_tm_all_wrap .leftpart .leftpart_inner .menu {
     padding: 0;
     width: auto;
     float: none;
   }
-  .tokyo_tm_all_wrap .leftpart .leftpart_inner .menu ul {
+  .osean_tm_all_wrap .leftpart .leftpart_inner .menu ul {
     display: flex;
     align-items: center;
   }
-  .tokyo_tm_all_wrap .leftpart .leftpart_inner .menu ul li {
+  .osean_tm_all_wrap .leftpart .leftpart_inner .menu ul li {
     .svg {
       display: block;
     }
@@ -1641,49 +1641,49 @@ body.modal {
       filter: invert(0.4);
     }
   }
-  .tokyo_tm_all_wrap .rightpart {
+  .osean_tm_all_wrap .rightpart {
     padding-left: 0px;
   }
-  .tokyo_tm_all_wrap .rightpart_in {
+  .osean_tm_all_wrap .rightpart_in {
     border-left: none;
   }
 
-  .tokyo_tm_about,
-  .tokyo_tm_home,
-  .tokyo_tm_portfolio,
-  .tokyo_tm_contact,
-  .tokyo_tm_news {
+  .osean_tm_about,
+  .osean_tm_home,
+  .osean_tm_portfolio,
+  .osean_tm_contact,
+  .osean_tm_news {
     padding-top: 170px;
   }
-  .tokyo_tm_home {
+  .osean_tm_home {
     padding-bottom: 120px;
   }
-  .tokyo_tm_modalbox_news .close a {
+  .osean_tm_modalbox_news .close a {
     color: #000;
   }
-  .tokyo_tm_modalbox_news .close {
+  .osean_tm_modalbox_news .close {
     left: auto;
     right: 5px;
     top: 25px;
   }
-  .tokyo_tm_modalbox_news .close .svg {
+  .osean_tm_modalbox_news .close .svg {
     width: 25px;
     height: 25px;
   }
-  .tokyo_tm_modalbox_about .close a {
+  .osean_tm_modalbox_about .close a {
     color: #000;
   }
-  .tokyo_tm_modalbox_about .close {
+  .osean_tm_modalbox_about .close {
     left: auto;
     right: 5px;
     top: 25px;
   }
-  .tokyo_tm_modalbox_about .close .svg {
+  .osean_tm_modalbox_about .close .svg {
     width: 25px;
     height: 25px;
   }
 
-  .not-found-wrapper .tokyo_tm_error {
+  .not-found-wrapper .osean_tm_error {
     height: calc(100vh + 70px);
   }
 }
@@ -1691,53 +1691,53 @@ body.modal {
   .mouse-cursor {
     display: none;
   }
-  .tokyo_tm_mobile_menu .menu_inner {
+  .osean_tm_mobile_menu .menu_inner {
     padding: 20px;
   }
-  .tokyo_tm_home .home_content {
+  .osean_tm_home .home_content {
     flex-direction: column;
     text-align: center;
   }
-  .tokyo_tm_home .avatar {
+  .osean_tm_home .avatar {
     margin-bottom: 30px;
   }
-  .tokyo_tm_home .details {
+  .osean_tm_home .details {
     margin-left: 0px;
   }
-  .tokyo_tm_about .description_inner {
+  .osean_tm_about .description_inner {
     flex-direction: column;
   }
-  .tokyo_tm_about .description .left {
+  .osean_tm_about .description .left {
     width: 100%;
     padding: 0px;
     margin-bottom: 50px;
   }
-  .tokyo_tm_about .description .right {
+  .osean_tm_about .description .right {
     width: 100%;
     padding: 0px;
   }
-  .tokyo_tm_title .title_flex {
+  .osean_tm_title .title_flex {
     flex-direction: column;
     align-items: flex-start;
   }
-  .tokyo_tm_title .portfolio_filter {
+  .osean_tm_title .portfolio_filter {
     padding-top: 48px;
   }
-  .tokyo_tm_modalbox_news .description_wrap {
+  .osean_tm_modalbox_news .description_wrap {
     padding: 40px 25px;
   }
-  .tokyo_tm_modalbox_about .description_wrap {
+  .osean_tm_modalbox_about .description_wrap {
     padding: 90px 25px 60px;
   }
-  .tokyo_tm_modalbox_about .my_box {
+  .osean_tm_modalbox_about .my_box {
     flex-direction: column;
   }
-  .tokyo_tm_modalbox_about .my_box .left {
+  .osean_tm_modalbox_about .my_box .left {
     width: 100%;
     padding-right: 0px;
     margin-bottom: 50px;
   }
-  .tokyo_tm_modalbox_about .my_box .right {
+  .osean_tm_modalbox_about .my_box .right {
     width: 100%;
     padding-left: 0px;
   }
@@ -1746,60 +1746,60 @@ body.modal {
   }
 }
 @media (max-width: 767px) {
-  .tokyo_tm_home .details .name {
+  .osean_tm_home .details .name {
     font-size: 35px;
   }
-  .tokyo_tm_home .avatar {
+  .osean_tm_home .avatar {
     min-width: 200px;
     min-height: 200px;
   }
-  .tokyo_tm_portfolio .portfolio_list {
+  .osean_tm_portfolio .portfolio_list {
     margin: 0px;
   }
-  .tokyo_tm_portfolio .portfolio_list li {
+  .osean_tm_portfolio .portfolio_list li {
     width: 100%;
     padding-left: 0px;
   }
-  .tokyo_tm_news ul {
+  .osean_tm_news ul {
     margin: 0px;
   }
-  .tokyo_tm_news ul li {
+  .osean_tm_news ul li {
     width: 100%;
     padding-left: 0px;
   }
-  .tokyo_tm_modalbox_about .description_wrap {
+  .osean_tm_modalbox_about .description_wrap {
     padding: 60px 25px 30px;
   }
-  .tokyo_tm_modalbox_news .main_content .icon {
+  .osean_tm_modalbox_news .main_content .icon {
     position: relative;
     margin-bottom: 30px;
   }
-  .tokyo_tm_modalbox_news .main_content .quotebox {
+  .osean_tm_modalbox_news .main_content .quotebox {
     padding-left: 0px;
   }
-  .tokyo_tm_modalbox_about .counter ul {
+  .osean_tm_modalbox_about .counter ul {
     margin: 0px;
   }
-  .tokyo_tm_modalbox_about .counter ul li {
+  .osean_tm_modalbox_about .counter ul li {
     width: 100%;
     padding-left: 0px;
   }
 }
 
 /*---------------------------------------------------*/
-/*	11) TOKYO 404 
+/*	11) OSEAN 404 
 /*---------------------------------------------------*/
 
-.tokyo_tm_section .container {
+.osean_tm_section .container {
   height: 100%;
 }
-.tokyo_tm_error {
+.osean_tm_error {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.tokyo_tm_error_inner h1 {
+.osean_tm_error_inner h1 {
   font-size: 120px;
   font-weight: 700;
   line-height: 1.2;
@@ -1807,7 +1807,7 @@ body.modal {
     font-size: 60px;
   }
 }
-.tokyo_tm_error_inner h3 {
+.osean_tm_error_inner h3 {
   font-size: 35px;
   line-height: 1.3;
   margin-bottom: 15px;
@@ -1815,7 +1815,7 @@ body.modal {
     font-size: 26px;
   }
 }
-.tokyo_tm_error_inner p {
+.osean_tm_error_inner p {
   font-size: 18px;
   margin-bottom: 25px;
 }
@@ -1856,19 +1856,19 @@ body.modal {
 }
 
 @media (max-width: 576px) {
-  .tokyo_tm_contact {
+  .osean_tm_contact {
     padding-bottom: 100px;
   }
-  .tokyo_tm_news {
+  .osean_tm_news {
     padding-bottom: 60px;
   }
-  .tokyo_tm_portfolio {
+  .osean_tm_portfolio {
     padding-bottom: 70px;
   }
-  .tokyo_tm_about {
+  .osean_tm_about {
     padding-bottom: 95px;
   }
-  .tokyo_tm_home {
+  .osean_tm_home {
     padding-bottom: 90px;
     min-height: auto;
   }
