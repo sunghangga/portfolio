@@ -24,7 +24,11 @@ body.dark ::-ms-input-placeholder {
 }
 @media (max-width: 1200px) {
   body.dark .tokyo_tm_all_wrap .leftpart {
-    box-shadow: 0 0 5px #252525;
+    box-shadow:
+		/* offset-x | offset-y | blur-radius | spread-radius | color */
+		0px 8px 10px 1px hsla(0,0%,0%,0.14), 
+		0px 3px 14px 2px hsla(0,0%,0%,0.12), 
+		0px 5px 5px -3px hsla(0,0%,0%,0.2);
   }
 }
 
@@ -166,6 +170,13 @@ body.dark .tokyo_tm_about .description .right > ul > li a:hover {
 body.dark .tokyo_tm_about .description .right > ul > li span {
   color: #fff;
 }
+body.dark .tokyo_tm_about .about_image img {
+  box-shadow:
+		/* offset-x | offset-y | blur-radius | spread-radius | color */
+		0px 8px 10px 1px hsla(0,0%,0%,0.14), 
+		0px 3px 14px 2px hsla(0,0%,0%,0.12), 
+		0px 5px 5px -3px hsla(0,0%,0%,0.2);
+}
 body.dark .tokyo_tm_modalbox_about .counter ul li span {
   color:#bbb;
 }
@@ -198,7 +209,11 @@ body.dark .tokyo_tm_portfolio .portfolio_filter ul li:hover {
   color: #fff;
 }
 body.dark .tokyo_tm_portfolio .portfolio_list li .inner {
-  box-shadow: 0 0 5px;
+  box-shadow:
+		/* offset-x | offset-y | blur-radius | spread-radius | color */
+		0px 8px 10px 1px hsla(0,0%,0%,0.14), 
+		0px 3px 14px 2px hsla(0,0%,0%,0.12), 
+		0px 5px 5px -3px hsla(0,0%,0%,0.2);
 }
 body.dark .tokyo_tm_news ul li .details .title a {
   color: #fff;
@@ -223,6 +238,13 @@ body.dark .tokyo_tm_modalbox_news .main_content .icon .svg {
 }
 body.dark .tokyo_tm_modalbox_news .main_content .news_share span {
   color:#fff
+}
+body.dark .tokyo_tm_modalbox_news .description_wrap .image img {
+  box-shadow:
+		/* offset-x | offset-y | blur-radius | spread-radius | color */
+		0px 8px 10px 1px hsla(0,0%,0%,0.14), 
+		0px 3px 14px 2px hsla(0,0%,0%,0.12), 
+		0px 5px 5px -3px hsla(0,0%,0%,0.2);
 }
 body.dark .box_inner {
   background:#151515;
@@ -285,7 +307,11 @@ body.dark .tokyo_tm_read_more a span {
   background-color: #000;
 }
 body.dark .tokyo_tm_news ul li .list_inner {
-  box-shadow: 0 0 5px #252525;
+  box-shadow:
+		/* offset-x | offset-y | blur-radius | spread-radius | color */
+		0px 8px 10px 1px hsla(0,0%,0%,0.14), 
+		0px 3px 14px 2px hsla(0,0%,0%,0.12), 
+		0px 5px 5px -3px hsla(0,0%,0%,0.2);
 }
 body.dark .tokyo_tm_news ul li .image {
   background: #111;
