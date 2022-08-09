@@ -86,7 +86,7 @@ const ModalPortfolio = ({item, isOpen, toggleModal}) => {
                                   <a href={detail}>
                                     <img
                                       src={detail}
-                                      alt={`Portfolio ${j + 1}`}
+                                      alt={`${item.title} (${j + 1})`}
                                     />
                                   </a>
                                   <button onClick={() => openLightbox(j)} className="btn-image">
