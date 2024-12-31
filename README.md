@@ -28,3 +28,14 @@ npm run deploy
 ```
 npm run lint
 ```
+
+### Clear docker cache
+```
+docker builder prune
+```
+
+### Build and run with docker
+```
+docker compose build --no-cache
+docker compose up -d
+```
