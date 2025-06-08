@@ -51,7 +51,7 @@ const About = () => {
                 <li>
                   <p>
                     <span>Email:</span>
-                    <a href="mailto:oseanapp@gmail.com">oseanapp@gmail.com</a>
+                    <a href="mailto:pramana.dev@gmail.com">pramana.dev@gmail.com</a>
                   </p>
                 </li>
                 <li>
